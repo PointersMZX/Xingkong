@@ -19,3 +19,5 @@ release/
 # Rust
 daemon/target/
 daemon/**/Cargo.lock
+# helper APK 由 CI 注入 app assets（不进仓），保留 .gitkeep
+app/src/main/assets/helper/*.apk

@@ -38,6 +38,7 @@ import com.xingkong.monitor.core.helper.HelperInstaller
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SettingsRoute(onBack: () -> Unit, onOpenAbout: () -> Unit) {
+    val context = LocalContext.current
     Scaffold(
         topBar = {
             TopAppBar(
@@ -68,7 +69,7 @@ fun SettingsRoute(onBack: () -> Unit, onOpenAbout: () -> Unit) {
                 headlineContent = { Text("安装 Helper（GPU 频率）") },
                 supportingContent = { Text("导出 helper APK，生成 ADB 安装命令") },
                 modifier = Modifier.clickable(onClick = {
-                    val ctx = LocalContext.current
+                    val ctx = context
                     val cmd = HelperInstaller.buildAdbInstallCommand(ctx)
                     val cm = ctx.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
                     cm.setPrimaryClip(ClipData.newPlainText("xingkong-helper-adb", cmd))
