@@ -1,0 +1,9 @@
+# 统一 LF，避免 Windows CRLF 进仓（git CRLF bug 预防）
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary
+*.keystore binary
+*.jar binary
+*.so binary

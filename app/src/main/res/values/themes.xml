@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Compose 主题在代码里（XingkongTheme），XML 主题只需给启动窗口用 -->
+    <style name="Theme.Xingkong" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+        <item name="android:statusBarColor">@color/xingkong_dark</item>
+        <item name="android:navigationBarColor">@color/xingkong_dark</item>
+    </style>
+</resources>

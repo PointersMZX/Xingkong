@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="Xingkong Helper"
+        android:allowBackup="false"
+        android:hasFragileUserData="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
+
+        <!-- BinderProvider：daemon 持 system/shell 权限调用，获取 IMetricHelper -->
+        <provider
+            android:name=".ipc.HelperBinderProvider"
+            android:authorities="com.xingkong.helper.binderProvider"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.HelperMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

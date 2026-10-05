@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+/local.properties
+/.idea
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+*.apk.id
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+release/
+*.keystore
+!debug.keystore
+# Rust
+daemon/target/
+daemon/**/Cargo.lock

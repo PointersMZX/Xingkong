@@ -1,0 +1,8 @@
+- [快速开始](getting-started.md)
+- [启动服务与激活页](startup-guide.md)
+- [悬浮窗](overlays.md)
+- [FPS 记录](fps-record.md)
+- [内存详情](memory.md)
+- [电池与功率校准](calibration.md)
+- [设置项](settings.md)
+- [排查问题](troubleshooting.md)

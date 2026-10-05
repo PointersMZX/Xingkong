@@ -1,0 +1,30 @@
+[package]
+name = "xingkong-daemon"
+version = "1.0.0"
+edition = "2021"
+build = "build.rs"
+
+[lib]
+name = "xingkong_daemon"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+jni = { version = "0.21", default-features = false }
+log = "0.4"
+# 接力 2 补全（与原 App Metric-Private/server 同构）：
+# android-binder = "0.1"   # Binder IPC（cargo crate android-binder-0.1.1）
+# tokio = { version = "1", features = ["rt-multi-thread", "macros", "time", "sync"] }
+# once_cell = "1"
+# rustls = "0.23"
+# socket2 = "0.6"
+# android_logger = "0.13"
+
+[build-dependencies]
+# aidl-rs = "0.4"  # AIDL → Rust 生成（com.xingkong.monitor.shared.ipc.*）
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true
+panic = "abort"
