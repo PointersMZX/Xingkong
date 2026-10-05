@@ -50,6 +50,13 @@ jobs:
           echo "=== 上传清单 ==="
           ls -la release-apk/
 
+      - name: Delete existing release for clean re-release
+        # 重发同一 tag 时删旧 Release（含 name 修复），保证名字不被旧 release 残留
+        run: |
+          gh release delete "${GITHUB_REF_NAME}" --yes 2>/dev/null && echo "已删旧 release ${GITHUB_REF_NAME}" || echo "无旧 release"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create Release and Upload APKs
         uses: softprops/action-gh-release@v2
         with:
