@@ -6,6 +6,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.xingkong.monitor.feature.home.HomeRoute
 import com.xingkong.monitor.feature.onboarding.OnboardingRoute
+import com.xingkong.monitor.feature.settings.AboutRoute
 import com.xingkong.monitor.feature.settings.SettingsRoute
 
 /**
@@ -14,22 +15,39 @@ import com.xingkong.monitor.feature.settings.SettingsRoute
  * 路由：
  * - onboarding：首次引导（介绍/启动服务/校准三页），未完成且 Daemon 未连接时进入
  * - home：主界面（Daemon 已连接后）
- * - settings：设置
+ * - settings：设置主页
+ * - about：关于软件
  *
- * 公益版：删除 membership 路由（原 App 的 MembershipRoute 全删）。
+ * 公益版：删除 membership 路由（原 App 的 MembershipRoute 全删，无会员墙）。
+ * 公益版：首页与设置均无"支持项目维护"入口。
  */
 object Routes {
     const val ONBOARDING = "onboarding"
     const val HOME = "home"
     const val SETTINGS = "settings"
+    const val ABOUT = "about"
 }
 
 @Composable
 fun AppNav() {
     val nav = rememberNavController()
     NavHost(navController = nav, startDestination = Routes.HOME) {
-        composable(Routes.ONBOARDING) { OnboardingRoute(onDone = { nav.navigate(Routes.HOME) { popUpTo(Routes.HOME) { inclusive = true } } }) }
-        composable(Routes.HOME) { HomeRoute(onOpenSettings = { nav.navigate(Routes.SETTINGS) }) }
-        composable(Routes.SETTINGS) { SettingsRoute(onBack = { nav.popBackStack() }) }
+        composable(Routes.ONBOARDING) {
+            OnboardingRoute(onDone = {
+                nav.navigate(Routes.HOME) { popUpTo(Routes.HOME) { inclusive = true } }
+            })
+        }
+        composable(Routes.HOME) {
+            HomeRoute(onOpenSettings = { nav.navigate(Routes.SETTINGS) })
+        }
+        composable(Routes.SETTINGS) {
+            SettingsRoute(
+                onBack = { nav.popBackStack() },
+                onOpenAbout = { nav.navigate(Routes.ABOUT) }
+            )
+        }
+        composable(Routes.ABOUT) {
+            AboutRoute(onBack = { nav.popBackStack() })
+        }
     }
 }
