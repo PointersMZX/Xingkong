@@ -33,7 +33,7 @@ android {
     }
     signingConfigs {
         create("release") {
-            // 公益版先用 debug.keystore 签名（androiddebugkey），正式上架前换自有 keystore
+            // 先用 debug.keystore 签名（androiddebugkey），正式发行前换自有 keystore
             storeFile = file("debug.keystore")
             storePassword = "android"
             keyAlias = "androiddebugkey"
@@ -53,7 +53,6 @@ android {
 
 dependencies {
     implementation(project(":shared-aidl"))
-
     // Compose
     implementation(platform("androidx.compose:compose-bom:2024.10.01"))
     implementation("androidx.compose.ui:ui")

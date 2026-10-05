@@ -33,15 +33,15 @@ jobs:
 
       - name: Copy APKs
         run: |
+          set -e
+          VERSION="${GITHUB_REF_NAME#v}"
           mkdir -p release-apk
-          cp app/build/outputs/apk/release/*.apk release-apk/ || true
-          cp helper/build/outputs/apk/release/*.apk release-apk/ || true
-          # 若 release 未签名产物名为 *-unsigned.apk，统一改名
-          ls -la release-apk/
-          for f in release-apk/*-unsigned.apk; do
-            [ -e "$f" ] || continue
-            mv "$f" "${f/-unsigned.apk/.apk}"
-          done
+          # 重命名默认产物 → 用户可见命名（匹配 body 描述）
+          cp app/build/outputs/apk/release/*.apk release-apk/app-release.apk
+          cp helper/build/outputs/apk/release/*.apk release-apk/helper-release.apk
+          mv release-apk/app-release.apk "release-apk/Xingkong_v$VERSION.apk"
+          mv release-apk/helper-release.apk "release-apk/Xingkong_Helper_v$VERSION.apk"
+          echo "=== 上传清单 ==="
           ls -la release-apk/
 
       - name: Create Release and Upload APKs
