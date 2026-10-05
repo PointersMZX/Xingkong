@@ -12,12 +12,11 @@ Android 专业级性能监视工具，采用 App + Daemon 双组件运行，用�
 
 ## 安装
 
-1. 从 [GitHub Release](https://github.com/PointersMZX/Xingkong/releases) 下载最新 APK：
-   - **Xingkong_vX.X.X.apk** — 主 App（必须安装）
-   - **Xingkong_Helper_vX.X.X.apk** — GPU 频率采样 Helper（可选，提升 GPU 指标可用性）
-2. 安装主 App，按首次引导操作：
+1. 从 [GitHub Release](https://github.com/PointersMZX/Xingkong/releases) 下载 **Xingkong_vX.X.X.apk**（主 App，已内置 GPU 频率 Helper）并安装。
+2. 按首次引导操作：
    - 选择 Daemon 启动方式：**Root 启动** 或 **复制 Shell 命令到 ADB Shell 执行**
-   - 需要 GPU 频率指标时，按指引用 ADB 安装 Helper
+   - 需要 GPU 频率指标时：到「设置 → 启动 → 安装 Helper」一键导出 Helper 并复制 ADB 安装命令，按提示在 PC 端 ADB 执行即可
+   - 不安装 Helper 也可使用全部其他功能，仅 GPU 频率格显示 `--`
 
 ## 使用
 
