@@ -53,9 +53,9 @@ jobs:
       - name: Create Release and Upload APKs
         uses: softprops/action-gh-release@v2
         with:
-          name: 星控 v${{ github.ref_name }}
+          name: 星控 ${{ github.ref_name }}
           body: |
-            星控（Xingkong）v${{ github.ref_name }}
+            星控（Xingkong）${{ github.ref_name }}
 
             Android 专业级性能监视工具，App + Daemon 双组件运行。用于查看设备性能状态、管理悬浮窗监视器、记录帧率相关会话数据。
 
@@ -67,8 +67,8 @@ jobs:
             - 全部功能免费开放，不收取任何费用
 
             ## 下载说明
-            - **Xingkong_v${{ github.ref_name }}.apk**：主 App
-            - **Xingkong_Helper_v${{ github.ref_name }}.apk**：GPU 频率采样 Helper（可选，提升 GPU 指标可用性；由 App 内引导通过 ADB 安装）
+            - **Xingkong_${{ github.ref_name }}.apk**：主 App
+            - **Xingkong_Helper_${{ github.ref_name }}.apk**：GPU 频率采样 Helper（可选，提升 GPU 指标可用性；由 App 内引导通过 ADB 安装）
             - 全部功能免费开放；本应用完全离线运行，无任何云端上报。
 
             ## 安装
