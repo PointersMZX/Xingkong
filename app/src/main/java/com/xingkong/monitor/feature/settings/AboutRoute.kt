@@ -29,19 +29,12 @@ import androidx.compose.ui.unit.dp
 /**
  * 关于软件页。
  *
- * 公益版规范（用户 2026-10-05 拍板）：
- *   - 名称：Xingkong（星控）
- *   - 特别鸣谢：Scene、Metric（参考项目，干净重写不复用二进制）
- *   - 贡献者：删除（不显示）
- *   - 开发者：极星（Pointers）
- *   - 联系方式：QQ 466620751、邮箱 466620751@qq.com、GitHub https://github.com/PointersMZX
- *   - Telegram：不显示（已删）
- *   - bilibili：https://space.bilibili.com/3546382782695708
- *   - 项目仓库：https://github.com/PointersMZX/Xingkong
- *   - 检查更新：见 UpdateChecker（待用户拍板更新模式后实现）
- *   - 更新日志：读 GitHub Release body（待实现）
+ * 展示项：名称 / 版本 / 开发者 / 特别鸣谢 / 项目仓库
+ *          + 联系方式（QQ / GitHub / 邮箱 / bilibili）
+ *          + 检查更新 / 更新日志
  *
- * 无"支持项目维护"入口（公益版不收取费用，不做赞助引流）。
+ * 联系方式：QQ 466620751、邮箱 466620751@qq.com、GitHub https://github.com/PointersMZX、
+ * bilibili https://space.bilibili.com/3546382782695708、仓库 https://github.com/PointersMZX/Xingkong
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -82,7 +75,7 @@ fun AboutRoute(onBack: () -> Unit) {
             )
             ListItem(
                 headlineContent = { Text("特别鸣谢") },
-                supportingContent = { Text("Scene、Metric（参考项目，干净重写不复用二进制）") }
+                supportingContent = { Text("Scene、Metric") }
             )
             ListItem(
                 headlineContent = { Text("项目仓库") },
