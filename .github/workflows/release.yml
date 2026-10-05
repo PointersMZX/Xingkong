@@ -32,22 +32,26 @@ jobs:
           [ -x "$SM" ] || { echo "sdkmanager 未找到"; exit 1; }
           yes | "$SM" "platforms;android-34" "build-tools;34.0.0" "platform-tools"
 
-      - name: Assemble app + helper release
+      - name: Build helper + inject into app assets + build app
+        # 维持原设计：helper APK 嵌入主 App 的 assets/helper/，Release 只发 1 个主 APK
         run: |
+          set -e
           chmod +x gradlew
-          bash gradlew :app:assembleRelease :helper:assembleRelease --no-daemon
+          # 1) 先构建 helper
+          bash gradlew :helper:assembleRelease --no-daemon
+          # 2) 注入 helper APK 到主 App assets（CI 产物里主 APK 内含 helper）
+          cp helper/build/outputs/apk/release/helper-release.apk app/src/main/assets/helper/xingkong-helper.apk
+          echo "helper 注入：$(ls -la app/src/main/assets/helper/xingkong-helper.apk)"
+          # 3) 再构建主 App（assets 含 helper）
+          bash gradlew :app:assembleRelease --no-daemon
 
-      - name: Copy APKs
+      - name: Package main APK
         run: |
           set -e
           VERSION="${GITHUB_REF_NAME#v}"
           mkdir -p release-apk
-          # 重命名默认产物 → 用户可见命名（匹配 body 描述）
-          cp app/build/outputs/apk/release/*.apk release-apk/app-release.apk
-          cp helper/build/outputs/apk/release/*.apk release-apk/helper-release.apk
-          mv release-apk/app-release.apk "release-apk/Xingkong_v$VERSION.apk"
-          mv release-apk/helper-release.apk "release-apk/Xingkong_Helper_v$VERSION.apk"
-          echo "=== 上传清单 ==="
+          cp app/build/outputs/apk/release/app-release.apk "release-apk/Xingkong_v$VERSION.apk"
+          echo "=== 上传清单（只 1 个主 APK，内嵌 helper）==="
           ls -la release-apk/
 
       - name: Delete existing release for clean re-release
@@ -74,16 +78,15 @@ jobs:
             - 全部功能免费开放，不收取任何费用
 
             ## 下载说明
-            - **Xingkong_${{ github.ref_name }}.apk**：主 App
-            - **Xingkong_Helper_${{ github.ref_name }}.apk**：GPU 频率采样 Helper（可选，提升 GPU 指标可用性；由 App 内引导通过 ADB 安装）
+            - **Xingkong_${{ github.ref_name }}.apk**：主 App（已内置 GPU 频率 Helper）
             - 全部功能免费开放；本应用完全离线运行，无任何云端上报。
 
             ## 安装
             1. 安装主 App。
             2. 首次引导中选择「Root 启动」或复制「Shell 命令」到 ADB Shell 执行，以启动 Daemon。
-            3. 需要 GPU 频率指标时，按 App 内指引安装 Helper。
+            3. 需要 GPU 频率指标时，在「设置 → 启动 → 安装 Helper」里一键导出 Helper 并复制 ADB 安装命令执行即可。
           files: |
-            release-apk/*.apk
+            release-apk/Xingkong_v*.apk
           fail_on_unmatched_files: false
           draft: false
           prerelease: false

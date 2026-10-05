@@ -1,0 +1,2 @@
+# CI 构建时把 helper-release.apk 注入为 xingkong-helper.apk（见 .github/workflows/release.yml）
+# 本占位文件本地构建用（不含 helper APK，主 App 安装后 isEmbedded() 返回 false 属正常）

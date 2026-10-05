@@ -19,7 +19,13 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+import android.widget.Toast
+import com.xingkong.monitor.core.helper.HelperInstaller
 
 /**
  * 设置主页。
@@ -57,6 +63,17 @@ fun SettingsRoute(onBack: () -> Unit, onOpenAbout: () -> Unit) {
             ListItem(
                 headlineContent = { Text("启动方式") },
                 supportingContent = { Text("Root 启动 / ADB Shell 命令（待实现）") }
+            )
+            ListItem(
+                headlineContent = { Text("安装 Helper（GPU 频率）") },
+                supportingContent = { Text("导出 helper APK，生成 ADB 安装命令") },
+                modifier = Modifier.clickable(onClick = {
+                    val ctx = LocalContext.current
+                    val cmd = HelperInstaller.buildAdbInstallCommand(ctx)
+                    val cm = ctx.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+                    cm.setPrimaryClip(ClipData.newPlainText("xingkong-helper-adb", cmd))
+                    Toast.makeText(ctx, "ADB 安装命令已复制\nhelper APK 已导出到 Download/xingkong-helper.apk", Toast.LENGTH_LONG).show()
+                })
             )
             ListItem(
                 headlineContent = { Text("开机自启") },
