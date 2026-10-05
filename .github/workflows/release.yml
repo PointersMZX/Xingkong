@@ -23,10 +23,16 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
+      - name: Install Android SDK packages
+        # 不用第三方 setup-android（曾失败）；runner 预装 Android SDK，手动补装 compileSdk 34 所需包
+        run: |
+          echo "ANDROID_SDK_ROOT=${ANDROID_SDK_ROOT:-<unset>} ANDROID_HOME=${ANDROID_HOME:-<unset>}"
+          SM="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          [ -x "$SM" ] || SM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          [ -x "$SM" ] || { echo "sdkmanager 未找到"; exit 1; }
+          yes | "$SM" "platforms;android-34" "build-tools;34.0.0" "platform-tools"
 
-      - name: Assemble app debuggable-release
+      - name: Assemble app + helper release
         run: |
           chmod +x gradlew
           bash gradlew :app:assembleRelease :helper:assembleRelease --no-daemon
