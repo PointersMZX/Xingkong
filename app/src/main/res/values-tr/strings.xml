@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Sayfayı kapat</string>
+    <string name="common_google_play_services_enable_button">Etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Google Play hizmetlerini etkinleştirmezseniz %1$s çalışmaz.</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştirin</string>
+    <string name="common_google_play_services_install_button">Yükle</string>
+    <string name="common_google_play_services_install_text">%1$s, şu anda cihazınızda bulunmayan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play hizmetlerinin kullanılabilirliği</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">%1$s, Google Play hizmetleriyle ilgili sorun yaşıyor. Lütfen tekrar deneyin.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s, Google Play hizmetleri olmadan çalışmaz ve bu hizmetler cihazınız tarafından desteklenmiyor.</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Google Play hizmetlerini güncellemezseniz %1$s çalışmayacak.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelleyin</string>
+    <string name="common_google_play_services_updating_text">%1$s, şu anda güncellenmekte olan Google Play hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play hizmetlerinin yeni sürümü gerekiyor. Kendisini kısa süre içinde güncelleyecektir.</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="default_error_message">Geçersiz giriş</string>
+    <string name="default_popup_window_title">Pop-up Pencere</string>
+    <string name="in_progress">Devam ediyor</string>
+    <string name="indeterminate">Kısmi olarak kontrol edildi</string>
+    <string name="m3c_bottom_sheet_collapse_description">Alt sayfayı daralt</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Alt sayfayı kapat</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Sürükleme tutamacı</string>
+    <string name="m3c_bottom_sheet_expand_description">Alt sayfayı genişlet</string>
+    <string name="m3c_bottom_sheet_pane_title">Alt Sayfa</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Daraltıldı</string>
+    <string name="m3c_dropdown_menu_expanded">Genişletildi</string>
+    <string name="m3c_dropdown_menu_toggle">Açılır menüyü açın/kapatın</string>
+    <string name="m3c_floating_toolbar_collapse">Araç çubuğunu daralt</string>
+    <string name="m3c_floating_toolbar_expand">Araç çubuğunu genişlet</string>
+    <string name="m3c_search_bar_search">Arama</string>
+    <string name="m3c_suggestions_available">Önerileri aşağıda bulabilirsiniz</string>
+    <string name="not_selected">Seçili değil</string>
+    <string name="selected">Seçili</string>
+    <string name="state_empty">Boş</string>
+    <string name="state_off">Kapalı</string>
+    <string name="state_on">Açık</string>
+    <string name="switch_role">Anahtar</string>
+    <string name="tab">Sekme</string>
+    <string name="template_percent">Yüzde %1$d.</string>
+    <string name="tooltip_description">ipucu</string>
+    <string name="tooltip_label">ipucunu göster</string>
+</resources>

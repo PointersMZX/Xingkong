@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Tutup helaian</string>
+    <string name="common_google_play_services_enable_button">Dayakan</string>
+    <string name="common_google_play_services_enable_text">%1$s tidak akan berfungsi melainkan anda mendayakan perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_enable_title">Dayakan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_install_button">Pasang</string>
+    <string name="common_google_play_services_install_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tiada pada peranti anda.</string>
+    <string name="common_google_play_services_install_title">Dapatkan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Ketersediaan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ralat perkhidmatan Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s menghadapi masalah berhubung perkhidmatan Google Play. Sila cuba lagi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini tidak disokong oleh peranti anda.</string>
+    <string name="common_google_play_services_update_button">Kemas kini</string>
+    <string name="common_google_play_services_update_text">%1$s tidak akan berfungsi kecuali anda mengemas kini perkhidmatan Google Play.</string>
+    <string name="common_google_play_services_update_title">Kemaskinikan perkhidmatan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berfungsi tanpa perkhidmatan Google Play dan perkhidmatan ini sedang dikemaskinikan.</string>
+    <string name="common_google_play_services_wear_update_text">Versi baharu perkhidmatan Google Play diperlukan. Kemas kini automatik akan dijalankan sebentar lagi.</string>
+    <string name="common_open_on_phone">Buka pada telefon</string>
+    <string name="default_error_message">Input tidak sah</string>
+    <string name="default_popup_window_title">Tetingkap Timbul</string>
+    <string name="in_progress">Dalam proses</string>
+    <string name="indeterminate">Sebahagiannya ditandai</string>
+    <string name="m3c_bottom_sheet_collapse_description">Kuncupkan helaian bawah</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Ketepikan helaian bawah</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Pemegang seret</string>
+    <string name="m3c_bottom_sheet_expand_description">Kembangkan helaian bawah</string>
+    <string name="m3c_bottom_sheet_pane_title">Helaian Bawah</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Dikuncupkan</string>
+    <string name="m3c_dropdown_menu_expanded">Dikembangkan</string>
+    <string name="m3c_dropdown_menu_toggle">Togol menu lungsur</string>
+    <string name="m3c_floating_toolbar_collapse">Kuncupkan bar alat</string>
+    <string name="m3c_floating_toolbar_expand">Kembangkan bar alat</string>
+    <string name="m3c_search_bar_search">Carian</string>
+    <string name="m3c_suggestions_available">Cadangan di bawah</string>
+    <string name="not_selected">Tidak dipilih</string>
+    <string name="selected">Dipilih</string>
+    <string name="state_empty">Kosong</string>
+    <string name="state_off">Mati</string>
+    <string name="state_on">Hidup</string>
+    <string name="switch_role">Tukar</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">Peratus %1$d.</string>
+    <string name="tooltip_description">tip alat</string>
+    <string name="tooltip_label">tunjukkan tip alat</string>
+</resources>

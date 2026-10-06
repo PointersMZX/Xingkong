@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">ປິດຊີດ</string>
+    <string name="common_google_play_services_enable_button">ເປີດນຳໃຊ້</string>
+    <string name="common_google_play_services_enable_text">%1$s ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ຈົນກວ່າທ່ານຈະເປີດໃຊ້ງານ​ການ​ບໍ​ລິ​ການ Google Play.</string>
+    <string name="common_google_play_services_enable_title">ເປີດໃຊ້ການ​ບໍ​ລິ​ການ Google Play</string>
+    <string name="common_google_play_services_install_button">ຕິດຕັ້ງ</string>
+    <string name="common_google_play_services_install_text">%1$s ຈະບໍ່ສາມາດເປີດໃຊ້ໄດ້ຫາກບໍ່ມີການບໍລິການ Google Play ເຊິ່ງແທັບເລັດຂອງທ່ານບໍ່ມີ.</string>
+    <string name="common_google_play_services_install_title">ຕິດຕັ້ງບໍລິການ Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">ສະຖານະບໍລິການ Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services ​ເກີດ​ຄວາມ​ຜິດ​ພາດ</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ກຳລັງມີບັນຫາກັບບໍລິການ Google Play. ກະລຸນາລອງໃໝ່ອີກຄັ້ງ.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ຈະບໍ່ສາມາດໃຊ້ໄດ້ຫາກບໍ່ມີບໍລິການ Google Play ເຊິ່ງອຸປະກອນຂອງທ່ານບໍ່ຮອງຮັບ.</string>
+    <string name="common_google_play_services_update_button">ອັບເດດ</string>
+    <string name="common_google_play_services_update_text">%1$s ຈະບໍ່ສາມາດເຮັດວຽກໄດ້ຈົນກວ່າທ່ານຈະອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
+    <string name="common_google_play_services_update_title">ອັບເດດການ​ບໍ​ລິ​ການ Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s ຈະບໍ່ສາມາດໃຊ້ງານໄດ້ໂດຍທີ່ບໍ່ມີການ​ບໍ​ລິ​ການ Google Play, ເຊິ່ງ​ກຳ​ລັງ​ອັບ​ເດດ​ຢູ່​ໃນ​ປະ​ຈຸ​ບັນ.</string>
+    <string name="common_google_play_services_wear_update_text">ຈຳ​ເປັນ​ຕ້ອງ​ມີ​ກາ​ນ​ບໍ​ລິ​ການ Google Play ເວີ​ຊັນ​ໃໝ່. ມັນ​ຈະ​ອັບ​ເດດ​ຕົວ​ເອງ​ໄວໆ​ນີ້.</string>
+    <string name="common_open_on_phone">​ເປີດ​ໃນ​ໂທ​ລະ​ສັບ</string>
+    <string name="default_error_message">ຂໍ້ມູນທີ່ປ້ອນເຂົ້າບໍ່ຖືກຕ້ອງ</string>
+    <string name="default_popup_window_title">ໜ້າຈໍປັອບອັບ</string>
+    <string name="in_progress">ກຳ​ລັງ​ດຳ​ເນີນ​ການ</string>
+    <string name="indeterminate">ກວດສອບບາງສ່ວນແລ້ວ</string>
+    <string name="m3c_bottom_sheet_collapse_description">ຫຍໍ້ຊີດລຸ່ມສຸດລົງ</string>
+    <string name="m3c_bottom_sheet_dismiss_description">ປິດຊີດລຸ່ມສຸດໄວ້</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">ບ່ອນຈັບລາກ</string>
+    <string name="m3c_bottom_sheet_expand_description">ຂະຫຍາຍຊີດລຸ່ມສຸດ</string>
+    <string name="m3c_bottom_sheet_pane_title">ຊີດລຸ່ມສຸດ</string>
+    <string name="m3c_dialog">ກ່ອງໂຕ້ຕອບ</string>
+    <string name="m3c_dropdown_menu_collapsed">ຫຍໍ້ລົງແລ້ວ</string>
+    <string name="m3c_dropdown_menu_expanded">ຂະຫຍາຍແລ້ວ</string>
+    <string name="m3c_dropdown_menu_toggle">ສະ​ຫຼັບເມນູແບບເລື່ອນລົງ</string>
+    <string name="m3c_floating_toolbar_collapse">ຫຍໍ້ແຖບ​ເຄື່ອງ​ມືລົງ</string>
+    <string name="m3c_floating_toolbar_expand">ຂະຫຍາຍແຖບເຄື່ອງມື</string>
+    <string name="m3c_search_bar_search">ຊອກຫາ</string>
+    <string name="m3c_suggestions_available">ມີຄຳແນະນຳຢູ່ຂ້າງລຸ່ມ</string>
+    <string name="not_selected">ບໍ່ໄດ້ເລືອກ</string>
+    <string name="selected">ເລືອກແລ້ວ</string>
+    <string name="state_empty">ຫວ່າງເປົ່າ</string>
+    <string name="state_off">ປິດຢູ່</string>
+    <string name="state_on">ເປີດຢູ່</string>
+    <string name="switch_role">ປຸ່ມກົດ</string>
+    <string name="tab">ແຖບ</string>
+    <string name="template_percent">%1$d ເປີ​ເຊັນ.</string>
+    <string name="tooltip_description">ຄຳແນະນຳ</string>
+    <string name="tooltip_label">ສະແດງຄຳແນະນຳ</string>
+</resources>

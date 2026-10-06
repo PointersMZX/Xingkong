@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Lukk arket</string>
+    <string name="common_google_play_services_enable_button">Aktivér</string>
+    <string name="common_google_play_services_enable_text">%1$s fungerer ikke med mindre du slår på Google Play-tjenester.</string>
+    <string name="common_google_play_services_enable_title">Slå på Google Play-tjenester</string>
+    <string name="common_google_play_services_install_button">Installer</string>
+    <string name="common_google_play_services_install_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke er installert på enheten din.</string>
+    <string name="common_google_play_services_install_title">Installer Google Play-tjenester</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Tjenester-tilgjengelighet</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Tjenester-feil</string>
+    <string name="common_google_play_services_unknown_issue">%1$s har problemer med Google Play-tjenester. Prøv på nytt.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan ikke kjøre uten Google Play-tjenester, som ikke støttes av enheten din.</string>
+    <string name="common_google_play_services_update_button">Oppdater</string>
+    <string name="common_google_play_services_update_text">%1$s kjører ikke med mindre du oppdaterer Google Play Tjenester.</string>
+    <string name="common_google_play_services_update_title">Oppdater Google Play-tjenester</string>
+    <string name="common_google_play_services_updating_text">%1$s kjører ikke uten Google Play-tjenester, som oppdateres akkurat nå.</string>
+    <string name="common_google_play_services_wear_update_text">Du må installere en ny versjon av Google Play-tjenester. Appen oppdateres automatisk om en kort stund.</string>
+    <string name="common_open_on_phone">Åpne på telefonen</string>
+    <string name="default_error_message">Ugyldige inndata</string>
+    <string name="default_popup_window_title">Forgrunnsvindu</string>
+    <string name="in_progress">Pågår</string>
+    <string name="indeterminate">Delvis avmerket</string>
+    <string name="m3c_bottom_sheet_collapse_description">Skjul feltet nederst</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Lukk feltet nederst</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Håndtak</string>
+    <string name="m3c_bottom_sheet_expand_description">Vis feltet nederst</string>
+    <string name="m3c_bottom_sheet_pane_title">Felt nederst</string>
+    <string name="m3c_dialog">Dialogboks</string>
+    <string name="m3c_dropdown_menu_collapsed">Skjules</string>
+    <string name="m3c_dropdown_menu_expanded">Vises</string>
+    <string name="m3c_dropdown_menu_toggle">Slå rullegardinmeny av/på</string>
+    <string name="m3c_floating_toolbar_collapse">Skjul verktøylinjen</string>
+    <string name="m3c_floating_toolbar_expand">Vis verktøylinjen</string>
+    <string name="m3c_search_bar_search">Søk</string>
+    <string name="m3c_suggestions_available">Du finner forslag nedenfor</string>
+    <string name="not_selected">Ikke valgt</string>
+    <string name="selected">Valgt</string>
+    <string name="state_empty">Tom</string>
+    <string name="state_off">Av</string>
+    <string name="state_on">På</string>
+    <string name="switch_role">Bryter</string>
+    <string name="tab">Fane</string>
+    <string name="template_percent">%1$d prosent.</string>
+    <string name="tooltip_description">verktøytips</string>
+    <string name="tooltip_label">vis verktøytips</string>
+</resources>

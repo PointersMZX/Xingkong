@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Loka blaði</string>
+    <string name="common_google_play_services_enable_button">Kveikja</string>
+    <string name="common_google_play_services_enable_text">%1$s virkar ekki nema þú gerir þjónustu Google Play virka.</string>
+    <string name="common_google_play_services_enable_title">Virkja þjónustu Google Play</string>
+    <string name="common_google_play_services_install_button">Setja upp</string>
+    <string name="common_google_play_services_install_text">%1$s getur ekki keyrt án þjónustu Google Play, sem vantar í tækið þitt.</string>
+    <string name="common_google_play_services_install_title">Sækja þjónustu Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Staða þjónustu Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Villa í þjónustu Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s á í vandræðum með þjónustu Google Play. Reyndu aftur.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s getur ekki keyrt án þjónustu Google Play, sem er ekki studd af tækinu þínu.</string>
+    <string name="common_google_play_services_update_button">Uppfæra</string>
+    <string name="common_google_play_services_update_text">%1$s getur ekki keyrt nema þú uppfærir þjónustu Google Play.</string>
+    <string name="common_google_play_services_update_title">Uppfæra þjónustu Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s getur ekki keyrt án þjónustu Google Play, sem verið er að uppfæra.</string>
+    <string name="common_google_play_services_wear_update_text">Nýja útgáfu af þjónustu Google Play vantar. Hún uppfærir sig sjálf innan skamms.</string>
+    <string name="common_open_on_phone">Opna í símanum</string>
+    <string name="default_error_message">Ógildur innsláttur</string>
+    <string name="default_popup_window_title">Sprettigluggi</string>
+    <string name="in_progress">Í vinnslu</string>
+    <string name="indeterminate">Hakað við að hluta til</string>
+    <string name="m3c_bottom_sheet_collapse_description">Minnka blað neðst</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Hunsa blað neðst</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Dragkló</string>
+    <string name="m3c_bottom_sheet_expand_description">Stækka blað neðst</string>
+    <string name="m3c_bottom_sheet_pane_title">Blað neðst</string>
+    <string name="m3c_dialog">Gluggi</string>
+    <string name="m3c_dropdown_menu_collapsed">Minnkað</string>
+    <string name="m3c_dropdown_menu_expanded">Stækkað</string>
+    <string name="m3c_dropdown_menu_toggle">Velja eða afvelja fellivalmynd</string>
+    <string name="m3c_floating_toolbar_collapse">Minnka tækjastiku</string>
+    <string name="m3c_floating_toolbar_expand">Stækka tækjastiku</string>
+    <string name="m3c_search_bar_search">Leit</string>
+    <string name="m3c_suggestions_available">Tillögur hér fyrir neðan</string>
+    <string name="not_selected">Ekki valið</string>
+    <string name="selected">Valið</string>
+    <string name="state_empty">Autt</string>
+    <string name="state_off">Slökkt</string>
+    <string name="state_on">Kveikt</string>
+    <string name="switch_role">Skipta</string>
+    <string name="tab">Flipi</string>
+    <string name="template_percent">%1$d prósent.</string>
+    <string name="tooltip_description">ábending</string>
+    <string name="tooltip_label">sýna ábendingu</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Затворите табелу</string>
+    <string name="common_google_play_services_enable_button">Омогући</string>
+    <string name="common_google_play_services_enable_text">%1$s неће функционисати ако не омогућите Google Play услуге.</string>
+    <string name="common_google_play_services_enable_title">Омогућите Google Play услуге</string>
+    <string name="common_google_play_services_install_button">Инсталирај</string>
+    <string name="common_google_play_services_install_text">%1$s не може да се покрене без Google Play услуга, које нису инсталиране на уређају.</string>
+    <string name="common_google_play_services_install_title">Преузмите Google Play услуге</string>
+    <string name="common_google_play_services_notification_channel_name">Доступност Google Play услуга</string>
+    <string name="common_google_play_services_notification_ticker">Грешка Google Play услуга</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблема са Google Play услугама. Пробајте поново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не може да се покрене без Google Play услуга, које уређај не подржава.</string>
+    <string name="common_google_play_services_update_button">Ажурирај</string>
+    <string name="common_google_play_services_update_text">%1$s не може да се покрене ако не ажурирате Google Play услуге.</string>
+    <string name="common_google_play_services_update_title">Ажурирајте Google Play услуге</string>
+    <string name="common_google_play_services_updating_text">%1$s не може да се покрене без Google Play услуга, које се тренутно ажурирају.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна је нова верзија Google Play услуга. Ускоро ће се ажурирати.</string>
+    <string name="common_open_on_phone">Отвори на телефону</string>
+    <string name="default_error_message">Унос је неважећи</string>
+    <string name="default_popup_window_title">Искачући прозор</string>
+    <string name="in_progress">У току</string>
+    <string name="indeterminate">Делимично означено</string>
+    <string name="m3c_bottom_sheet_collapse_description">Скупите доњу табелу</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Одбаците доњу табелу</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Идентификатор за превлачење</string>
+    <string name="m3c_bottom_sheet_expand_description">Проширите доњу табелу</string>
+    <string name="m3c_bottom_sheet_pane_title">Доња табела</string>
+    <string name="m3c_dialog">Дијалог</string>
+    <string name="m3c_dropdown_menu_collapsed">Скупљено је</string>
+    <string name="m3c_dropdown_menu_expanded">Проширено је</string>
+    <string name="m3c_dropdown_menu_toggle">Прекидач за падајући мени</string>
+    <string name="m3c_floating_toolbar_collapse">Скупите траку с алаткама</string>
+    <string name="m3c_floating_toolbar_expand">Проширите траку с алаткама</string>
+    <string name="m3c_search_bar_search">Претрага</string>
+    <string name="m3c_suggestions_available">Предлози су у наставку</string>
+    <string name="not_selected">Није изабрано</string>
+    <string name="selected">Изабрано</string>
+    <string name="state_empty">Празно</string>
+    <string name="state_off">Искључено</string>
+    <string name="state_on">Укључено</string>
+    <string name="switch_role">Прекидач</string>
+    <string name="tab">Картица</string>
+    <string name="template_percent">%1$d посто.</string>
+    <string name="tooltip_description">објашњење</string>
+    <string name="tooltip_label">прикажи објашњење</string>
+</resources>

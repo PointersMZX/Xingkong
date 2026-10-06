@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Itxi orria</string>
+    <string name="common_google_play_services_enable_button">Gaitu</string>
+    <string name="common_google_play_services_enable_text">%1$s aplikazioak ez du funtzionatuko Google Play Services gaitzen ez baduzu.</string>
+    <string name="common_google_play_services_enable_title">Gaitu Google Play Services</string>
+    <string name="common_google_play_services_install_button">Instalatu</string>
+    <string name="common_google_play_services_install_text">%1$s ez da exekutatuko Google Play Services gabe, baina ez dago halakorik gailuan.</string>
+    <string name="common_google_play_services_install_title">Lortu Google Play Services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play Services-en erabilgarritasuna</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-en errorea</string>
+    <string name="common_google_play_services_unknown_issue">%1$s aplikazioak arazoak ditu Google Play Services-ekin. Saiatu berriro.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s aplikazioa ezin da erabili Google Play Services gabe, baina zure gailua ez da harekin bateragarria.</string>
+    <string name="common_google_play_services_update_button">Eguneratu</string>
+    <string name="common_google_play_services_update_text">%1$s ez da exekutatuko Google Play Services eguneratzen ez baduzu.</string>
+    <string name="common_google_play_services_update_title">Eguneratu Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s ez da exekutatuko Google Play Services gabe; zerbitzu hori eguneratzen ari da.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play Services-en bertsio berria behar da. Berehala eguneratuko da automatikoki.</string>
+    <string name="common_open_on_phone">Ireki telefonoan</string>
+    <string name="default_error_message">Sarrerak ez du balio</string>
+    <string name="default_popup_window_title">Leiho gainerakorra</string>
+    <string name="in_progress">Abian</string>
+    <string name="indeterminate">Erdi-markatuta</string>
+    <string name="m3c_bottom_sheet_collapse_description">Tolestu pantailaren behealdean ainguratutako orria</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Baztertu pantailaren behealdean ainguratutako orria</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Arrastatzeko kontrol-puntua</string>
+    <string name="m3c_bottom_sheet_expand_description">Zabaldu pantailaren behealdean ainguratutako orria</string>
+    <string name="m3c_bottom_sheet_pane_title">Pantailaren behealdean ainguratutako orria</string>
+    <string name="m3c_dialog">Leihoa</string>
+    <string name="m3c_dropdown_menu_collapsed">Tolestuta</string>
+    <string name="m3c_dropdown_menu_expanded">Zabalduta</string>
+    <string name="m3c_dropdown_menu_toggle">Zabaldu/Tolestu goitibeherako menua</string>
+    <string name="m3c_floating_toolbar_collapse">Tolestu tresna-barra</string>
+    <string name="m3c_floating_toolbar_expand">Zabaldu tresna-barra</string>
+    <string name="m3c_search_bar_search">Bilatu</string>
+    <string name="m3c_suggestions_available">Iradokizunak daude behean</string>
+    <string name="not_selected">Hautatu gabe</string>
+    <string name="selected">Hautatuta</string>
+    <string name="state_empty">Hutsik</string>
+    <string name="state_off">Desaktibatuta</string>
+    <string name="state_on">Aktibatuta</string>
+    <string name="switch_role">Aldatu</string>
+    <string name="tab">Fitxa</string>
+    <string name="template_percent">Ehuneko %1$d.</string>
+    <string name="tooltip_description">aholkua</string>
+    <string name="tooltip_label">erakutsi aholkua</string>
+</resources>

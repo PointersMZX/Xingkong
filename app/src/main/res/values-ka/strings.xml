@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">ფურცლის დახურვა</string>
+    <string name="common_google_play_services_enable_button">ჩართვა</string>
+    <string name="common_google_play_services_enable_text">%1$s ვერ იმუშავებს Google Play Services-ის ჩართვამდე.</string>
+    <string name="common_google_play_services_enable_title">Google Play Services-ის ჩართვა</string>
+    <string name="common_google_play_services_install_button">ინსტალაცია</string>
+    <string name="common_google_play_services_install_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელიც აკლია თქვენს მოწყობილობას.</string>
+    <string name="common_google_play_services_install_title">Google Play Services-ის ჩამოტვირთვა</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services-ის ხელმისაწვდომობა</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-ის შეცდომა</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-ს Google Play Services-თან პრობლემა შეექმნა. გთხოვთ, ცადოთ ხელახლა.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომლებიც მხარდაუჭერელია თქვენი მოწყობილობის მიერ.</string>
+    <string name="common_google_play_services_update_button">განახლება</string>
+    <string name="common_google_play_services_update_text">%1$s ვერ გაეშვება, თუ Google Play სერვისებს არ განაახლებთ.</string>
+    <string name="common_google_play_services_update_title">განაახლეთ Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელთა განახლებაც ამჟამად მიმდინარეობს.</string>
+    <string name="common_google_play_services_wear_update_text">საჭიროა Google Play Services-ის ახალი ვერსია. ის მალე განახლდება.</string>
+    <string name="common_open_on_phone">ტელეფონში გახსნა</string>
+    <string name="default_error_message">შენატანი არასწორია</string>
+    <string name="default_popup_window_title">ამომხტარი ფანჯარა</string>
+    <string name="in_progress">მუშავდება</string>
+    <string name="indeterminate">ნაწილობრივ შემოწმებულია</string>
+    <string name="m3c_bottom_sheet_collapse_description">ქვედა ფურცლის ჩაკეცვა</string>
+    <string name="m3c_bottom_sheet_dismiss_description">ქვედა ფურცლის უარყოფა</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">სახელური ჩავლებისთვის</string>
+    <string name="m3c_bottom_sheet_expand_description">ქვედა ფურცლის გაშლა</string>
+    <string name="m3c_bottom_sheet_pane_title">ქვედა ფურცელი</string>
+    <string name="m3c_dialog">დიალოგი</string>
+    <string name="m3c_dropdown_menu_collapsed">ჩაკეცილი</string>
+    <string name="m3c_dropdown_menu_expanded">გაფართოებული</string>
+    <string name="m3c_dropdown_menu_toggle">გადართეთ ჩამოსაშლელი მენიუ</string>
+    <string name="m3c_floating_toolbar_collapse">ხელსაწყოთა ზოლის ჩაკეცვა</string>
+    <string name="m3c_floating_toolbar_expand">ხელსაწყოთა ზოლის გაფართოება</string>
+    <string name="m3c_search_bar_search">ძიება</string>
+    <string name="m3c_suggestions_available">შემოთავაზებები იხილეთ ქვემოთ</string>
+    <string name="not_selected">არ არის არჩეული</string>
+    <string name="selected">არჩეული</string>
+    <string name="state_empty">ცარიელი</string>
+    <string name="state_off">გამორთული</string>
+    <string name="state_on">ჩართული</string>
+    <string name="switch_role">გადართვა</string>
+    <string name="tab">ჩანართი</string>
+    <string name="template_percent">%1$d პროცენტი.</string>
+    <string name="tooltip_description">მინიშნება</string>
+    <string name="tooltip_label">მინიშნების ჩვენება</string>
+</resources>

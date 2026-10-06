@@ -1,185 +1,184 @@
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <!-- 网络（保留：自更新走 GitHub） -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <!-- 包查询 -->
-    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
-        tools:ignore="QueryAllPackagesPermission" />
-
-    <!-- 自更新安装 -->
-    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-
-    <!-- 开机自启 -->
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
-    <!-- 悬浮窗 -->
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
-    <!-- 前台服务保活 -->
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
-    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
-    <!-- 通知 -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-
-    <!-- 公益版：删除 AD_ID / ACCESS_ADSERVICES 广告归因权限 -->
-
-    <!-- 自定义权限：daemon Binder 推回 App 用（INTERACT_ACROSS_USERS_FULL 由 daemon 持） -->
-    <permission
-        android:name="com.xingkong.monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-        android:protectionLevel="signature" />
-    <uses-permission android:name="com.xingkong.monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-
-    <application
-        android:name=".XingkongApp"
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:enableOnBackInvokedCallback="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.Xingkong"
-        tools:targetApi="34">
-
-        <!-- 主 Activity（无 payment deeplink，公益版去支付） -->
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode"
-            android:windowSoftInputMode="adjustResize">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="37" android:compileSdkVersionCodename="17" package="com.itos.metric.monitor" platformBuildVersionCode="37" platformBuildVersionName="17">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.POST_PROMOTED_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
+    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
+    <permission android:name="com.itos.metric.monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.itos.metric.monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules" android:enableOnBackInvokedCallback="true" android:extractNativeLibs="true" android:fullBackupContent="@xml/backup_rules" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.itos.metric.monitor.MetricApp" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/Theme.Metric">
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:launchMode="singleTop" android:name="com.itos.metric.monitor.MainActivity" android:theme="@style/Theme.Metric" android:windowSoftInputMode="adjustResize">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.itos.metric.monitor.action.OPEN_PROCESS_RECORD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="payment" android:pathPrefix="/return" android:scheme="metric"/>
             </intent-filter>
         </activity>
-
-        <!-- 开机自启 -->
-        <receiver
-            android:name=".boot.BootCompletedReceiver"
-            android:enabled="true"
-            android:exported="false">
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_dark_gold_detailed" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityDarkGoldDetailedAlias" android:roundIcon="@mipmap/ic_launcher_dark_gold_detailed_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_dark_gold_simple" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityDarkGoldSimpleAlias" android:roundIcon="@mipmap/ic_launcher_dark_gold_simple_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_dark_detailed" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityDarkDetailedAlias" android:roundIcon="@mipmap/ic_launcher_dark_detailed_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_dark_simple" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityDarkSimpleAlias" android:roundIcon="@mipmap/ic_launcher_dark_simple_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_gold_detailed" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityGoldDetailedAlias" android:roundIcon="@mipmap/ic_launcher_gold_detailed_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_gold_simple" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityGoldSimpleAlias" android:roundIcon="@mipmap/ic_launcher_gold_simple_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:exported="true" android:icon="@mipmap/ic_launcher_simple" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivitySimpleAlias" android:roundIcon="@mipmap/ic_launcher_simple_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.itos.metric.monitor.MainActivityDefaultAlias" android:roundIcon="@mipmap/ic_launcher_round" android:targetActivity="com.itos.metric.monitor.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <receiver android:enabled="true" android:exported="false" android:name="com.itos.metric.monitor.boot.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>
         </receiver>
-
-        <!-- BinderProvider：daemon 推 Binder 回 App -->
-        <provider
-            android:name=".ipc.BinderProvider"
-            android:authorities="com.xingkong.monitor.binderProvider"
-            android:exported="true"
-            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL" />
-
-        <!-- FileProvider -->
-        <provider
-            android:name="androidx.core.content.FileProvider"
-            android:authorities="com.xingkong.monitor.fileprovider"
-            android:exported="false"
-            android:grantUriPermissions="true">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_paths" />
+        <provider android:authorities="com.itos.metric.monitor.binderProvider" android:exported="true" android:name="com.itos.metric.monitor.ipc.BinderProvider" android:permission="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <provider android:authorities="com.itos.metric.monitor.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
         </provider>
-
-        <!-- FPS 记录前台服务（specialUse） -->
-        <service
-            android:name=".tile.FpsRecordService"
-            android:exported="false"
-            android:foregroundServiceType="specialUse">
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="用户主动通过快捷设置磁贴启动的前台应用帧率持续记录" />
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:name="com.itos.metric.monitor.tile.FpsRecordService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="用户主动通过快捷设置磁贴启动的前台应用帧率持续记录"/>
         </service>
-
-        <!-- 快捷磁贴 -->
-        <service
-            android:name=".tile.FpsRecordTileService"
-            android:label="@string/tile_fps_record"
-            android:icon="@drawable/ic_tile_fps"
-            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
-            android:exported="true">
+        <service android:exported="true" android:icon="@drawable/fps_record_notification_icon" android:label="@string/fps_tile_label" android:name="com.itos.metric.monitor.tile.FpsRecordTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE" />
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
             </intent-filter>
-            <meta-data
-                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
-                android:value="true" />
-            <meta-data
-                android:name="android.service.quicksettings.ACTIVE_TILE"
-                android:value="true" />
+            <meta-data android:name="android.service.quicksettings.TOGGLEABLE_TILE" android:value="true"/>
+            <meta-data android:name="android.service.quicksettings.ACTIVE_TILE" android:value="true"/>
         </service>
-
-        <!-- 进程记录前台服务 -->
-        <service
-            android:name=".core.service.ProcessRecordService"
-            android:exported="false"
-            android:foregroundServiceType="specialUse">
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="用户主动启动的本地进程性能持续记录" />
-        </service>
-
-        <!-- 实时通知服务 -->
-        <service
-            android:name=".feature.realtimenotification.RealtimeNotificationService"
-            android:exported="false"
-            android:stopWithTask="false"
-            android:foregroundServiceType="specialUse">
-            <property
-                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
-                android:value="用户主动启用的 App 侧实时性能通知" />
-        </service>
-
-        <!-- 实时通知 Overlay Receiver（daemon 调用） -->
-        <receiver
-            android:name=".overlay.notification.RealtimeNotificationOverlayReceiver"
-            android:permission="android.permission.INTERACT_ACROSS_USERS_FULL"
-            android:exported="true" />
-
-        <!-- 无障碍服务：监听前台 App 切换（FPS 记录自动开始/停止） -->
-        <service
-            android:name=".feature.realtimenotification.RealtimeNotificationAccessibilityService"
-            android:label="@string/accessibility_service_label"
-            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
-            android:exported="true">
+        <receiver android:exported="true" android:name="com.itos.metric.monitor.feature.settings.update.AppDownloader$DownloadCompleteReceiver" android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS">
             <intent-filter>
-                <action android:name="android.accessibilityservice.AccessibilityService" />
-            </intent-filter>
-            <meta-data
-                android:name="android.accessibilityservice"
-                android:resource="@xml/accessibility_service_config" />
-        </service>
-
-        <!-- 应用组件快捷方式 Activity -->
-        <activity
-            android:name=".feature.appmanager.ComponentShortcutActivity"
-            android:exported="true"
-            android:taskAffinity=""
-            android:excludeFromRecents="true" />
-
-        <receiver
-            android:name=".feature.appmanager.ComponentShortcutPinnedReceiver"
-            android:exported="false" />
-
-        <!-- 自更新下载完成 Receiver -->
-        <receiver
-            android:name=".feature.settings.update.AppDownloader$DownloadCompleteReceiver"
-            android:permission="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+                <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
             </intent-filter>
         </receiver>
-
+        <receiver android:exported="true" android:name="com.itos.metric.monitor.overlay.notification.RealtimeNotificationOverlayReceiver" android:permission="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:name="com.itos.metric.monitor.core.service.ProcessRecordService">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="用户主动启动的本地进程性能持续记录"/>
+        </service>
+        <service android:exported="false" android:foregroundServiceType="specialUse" android:name="com.itos.metric.monitor.feature.realtimenotification.RealtimeNotificationService" android:stopWithTask="false">
+            <property android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE" android:value="用户主动启用的 App 侧实时性能通知"/>
+        </service>
+        <service android:exported="true" android:label="@string/realtime_notification_accessibility_label" android:name="com.itos.metric.monitor.feature.realtimenotification.RealtimeNotificationAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/realtime_notification_accessibility_service"/>
+        </service>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.itos.metric.monitor.feature.appmanager.ComponentShortcutActivity" android:taskAffinity=""/>
+        <receiver android:exported="false" android:name="com.itos.metric.monitor.feature.appmanager.ComponentShortcutPinnedReceiver"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.firebase.sessions.SessionLifecycleService"/>
+        <provider android:authorities="com.itos.metric.monitor.firebaseinitprovider" android:directBootAware="true" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.itos.metric.monitor.androidx-startup" android:exported="false" android:name="androidx.startup.InitializationProvider">
+            <meta-data android:name="androidx.work.WorkManagerInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="okhttp3.internal.platform.PlatformInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.profileinstaller.ProfileInstallerInitializer" android:value="androidx.startup"/>
+        </provider>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <uses-library android:name="androidx.window.extensions" android:required="false"/>
+        <uses-library android:name="androidx.window.sidecar" android:required="false"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <uses-library android:name="android.ext.adservices" android:required="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.profileinstaller.ProfileInstallReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
     </application>
-
 </manifest>

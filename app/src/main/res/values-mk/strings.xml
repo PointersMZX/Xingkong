@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Затворете го листот</string>
+    <string name="common_google_play_services_enable_button">Овозможи</string>
+    <string name="common_google_play_services_enable_text">%1$s нема да се извршува ако не овозможите услуги на Google Play.</string>
+    <string name="common_google_play_services_enable_title">Овозможи ги услугите на Google Play</string>
+    <string name="common_google_play_services_install_button">Инсталирај</string>
+    <string name="common_google_play_services_install_text">%1$s нема да се извршува без услугите на Google Play што ги нема на уредот.</string>
+    <string name="common_google_play_services_install_title">Преземи ги услугите на Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Достапност на услугите на Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка на услугите на Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми со услугите на Google Play. Обидете се повторно.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s нема да се извршува без услугите на Google Play, што не се подржани од уредов.</string>
+    <string name="common_google_play_services_update_button">Ажурирај</string>
+    <string name="common_google_play_services_update_text">%1$s нема да се извршува ако не ги ажурирате услугите на Google Play.</string>
+    <string name="common_google_play_services_update_title">Ажурирај ги услугите на Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s нема да се извршува без услугите на Google Play што се ажурираат во моментов.</string>
+    <string name="common_google_play_services_wear_update_text">Потребна е нова верзија на услугите на Google Play. Таа наскоро самата ќе се ажурира.</string>
+    <string name="common_open_on_phone">Отвори на телефонот</string>
+    <string name="default_error_message">Неважечки запис</string>
+    <string name="default_popup_window_title">Скокачки прозорец</string>
+    <string name="in_progress">Во тек</string>
+    <string name="indeterminate">Делумно проверено</string>
+    <string name="m3c_bottom_sheet_collapse_description">Собери го долниот лист</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Отфрли го долниот лист</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Рачка за влечење</string>
+    <string name="m3c_bottom_sheet_expand_description">Прошири го долниот лист</string>
+    <string name="m3c_bottom_sheet_pane_title">Долен лист</string>
+    <string name="m3c_dialog">Дијалог</string>
+    <string name="m3c_dropdown_menu_collapsed">Собрано</string>
+    <string name="m3c_dropdown_menu_expanded">Проширено</string>
+    <string name="m3c_dropdown_menu_toggle">Вклучување/исклучување паѓачко мени</string>
+    <string name="m3c_floating_toolbar_collapse">Собери го алатникот</string>
+    <string name="m3c_floating_toolbar_expand">Прошири го алатникот</string>
+    <string name="m3c_search_bar_search">Пребарување</string>
+    <string name="m3c_suggestions_available">Предлозите се наведени подолу</string>
+    <string name="not_selected">Не е избрано</string>
+    <string name="selected">Избрано</string>
+    <string name="state_empty">Празно</string>
+    <string name="state_off">Исклучено</string>
+    <string name="state_on">Вклучено</string>
+    <string name="switch_role">Прекинувач</string>
+    <string name="tab">Картичка</string>
+    <string name="template_percent">%1$d проценти.</string>
+    <string name="tooltip_description">совет за алатка</string>
+    <string name="tooltip_label">прикажи совет за алатка</string>
+</resources>

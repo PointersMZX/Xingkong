@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Tabelle schließen</string>
+    <string name="common_google_play_services_enable_button">Aktivieren</string>
+    <string name="common_google_play_services_enable_text">%1$s funktioniert erst nach der Aktivierung der Google Play-Dienste.</string>
+    <string name="common_google_play_services_enable_title">Google Play-Dienste aktivieren</string>
+    <string name="common_google_play_services_install_button">Installieren</string>
+    <string name="common_google_play_services_install_text">Zur Nutzung von %1$s sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind.</string>
+    <string name="common_google_play_services_install_title">Google Play-Dienste installieren</string>
+    <string name="common_google_play_services_notification_channel_name">Verfügbarkeit von Google Play-Diensten</string>
+    <string name="common_google_play_services_notification_ticker">Fehler bei Zugriff auf Google Play-Dienste</string>
+    <string name="common_google_play_services_unknown_issue">%1$s hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal.</string>
+    <string name="common_google_play_services_unsupported_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden.</string>
+    <string name="common_google_play_services_update_button">Aktualisieren</string>
+    <string name="common_google_play_services_update_text">%1$s wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst.</string>
+    <string name="common_google_play_services_update_title">Google Play-Dienste aktualisieren</string>
+    <string name="common_google_play_services_updating_text">Zur Nutzung von %1$s sind Google Play-Dienste erforderlich, die gerade aktualisiert werden.</string>
+    <string name="common_google_play_services_wear_update_text">Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert.</string>
+    <string name="common_open_on_phone">Auf Smartphone öffnen</string>
+    <string name="default_error_message">Ungültige Eingabe</string>
+    <string name="default_popup_window_title">Pop-up-Fenster</string>
+    <string name="in_progress">In Bearbeitung</string>
+    <string name="indeterminate">Teilweise aktiviert</string>
+    <string name="m3c_bottom_sheet_collapse_description">Ansicht am unteren Rand minimieren</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Ansicht am unteren Rand schließen</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Ziehpunkt</string>
+    <string name="m3c_bottom_sheet_expand_description">Ansicht am unteren Rand maximieren</string>
+    <string name="m3c_bottom_sheet_pane_title">Ansicht am unteren Rand</string>
+    <string name="m3c_dialog">Dialogfeld</string>
+    <string name="m3c_dropdown_menu_collapsed">Minimiert</string>
+    <string name="m3c_dropdown_menu_expanded">Maximiert</string>
+    <string name="m3c_dropdown_menu_toggle">Drop-down-Menü maximieren/minimieren</string>
+    <string name="m3c_floating_toolbar_collapse">Symbolleiste minimieren</string>
+    <string name="m3c_floating_toolbar_expand">Symbolleiste maximieren</string>
+    <string name="m3c_search_bar_search">Suche</string>
+    <string name="m3c_suggestions_available">Vorschläge unten</string>
+    <string name="not_selected">Nicht ausgewählt</string>
+    <string name="selected">Ausgewählt</string>
+    <string name="state_empty">Leer</string>
+    <string name="state_off">Aus</string>
+    <string name="state_on">An</string>
+    <string name="switch_role">Wechseln</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d Prozent.</string>
+    <string name="tooltip_description">Kurzinfo</string>
+    <string name="tooltip_label">Kurzinfo anzeigen</string>
+</resources>

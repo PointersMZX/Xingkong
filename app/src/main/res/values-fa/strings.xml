@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">بستن برگ</string>
+    <string name="common_google_play_services_enable_button">فعال کردن</string>
+    <string name="common_google_play_services_enable_text">‏تا وقتی «خدمات Google Play» را فعال نکنید، %1$s کار نمی‌کند.</string>
+    <string name="common_google_play_services_enable_title">‏‫فعال کردن «خدمات Google Play»</string>
+    <string name="common_google_play_services_install_button">نصب</string>
+    <string name="common_google_play_services_install_text">‏%1$s بدون خدمات Google Play که در دستگاه شما وجود ندارد اجرا نمی‌شود.</string>
+    <string name="common_google_play_services_install_title">‏دریافت «خدمات Google Play»</string>
+    <string name="common_google_play_services_notification_channel_name">‏دردسترس بودن خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطا در خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏%1$s برای استفاده از خدمات Google Play با مشکل روبرو است. لطفاً دوباره امتحان کنید.</string>
+    <string name="common_google_play_services_unsupported_text">‏%1$s بدون خدمات Google Play که در دستگاه شما پشتیبانی نمی‌شود، اجرا نخواهد شد.</string>
+    <string name="common_google_play_services_update_button">به‌روزرسانی</string>
+    <string name="common_google_play_services_update_text">‏تاز مانی که «خدمات Google Play» را به‌روزرسانی نکنید، %1$s اجرا نمی‌شود.</string>
+    <string name="common_google_play_services_update_title">‏‫به‌روزرسانی «خدمات Google Play»</string>
+    <string name="common_google_play_services_updating_text">‏%1$s بدون «خدمات Google Play» که درحال حاضر درحال به‌روزرسانی هستند، کار نمی‌کند.</string>
+    <string name="common_google_play_services_wear_update_text">‏نسخه جدید «خدمات Google Play» نیاز است. به‌زودی به‌طور خودکار به‌روزرسانی می‌شود.</string>
+    <string name="common_open_on_phone">باز کردن در تلفن</string>
+    <string name="default_error_message">ورودی نامعتبر</string>
+    <string name="default_popup_window_title">پنجره بالاپر</string>
+    <string name="in_progress">درحال انجام</string>
+    <string name="indeterminate">ناقص علامت زده‌شده</string>
+    <string name="m3c_bottom_sheet_collapse_description">جمع کردن برگ زیرین</string>
+    <string name="m3c_bottom_sheet_dismiss_description">بستن برگ زیرین</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">دستگیره کشاندن</string>
+    <string name="m3c_bottom_sheet_expand_description">ازهم باز کردن برگ زیرین</string>
+    <string name="m3c_bottom_sheet_pane_title">برگ زیرین</string>
+    <string name="m3c_dialog">کادر گفتگو</string>
+    <string name="m3c_dropdown_menu_collapsed">جمع شد</string>
+    <string name="m3c_dropdown_menu_expanded">ازهم باز شد</string>
+    <string name="m3c_dropdown_menu_toggle">جمع کردن/ ازهم باز کردن منوِ کرکره‌ای</string>
+    <string name="m3c_floating_toolbar_collapse">جمع کردن نوارابزار</string>
+    <string name="m3c_floating_toolbar_expand">ازهم بازکردن نوارابزار</string>
+    <string name="m3c_search_bar_search">جستجو</string>
+    <string name="m3c_suggestions_available">پیشنهادهای زیر</string>
+    <string name="not_selected">انتخاب‌نشده</string>
+    <string name="selected">انتخاب شد</string>
+    <string name="state_empty">خالی</string>
+    <string name="state_off">خاموش</string>
+    <string name="state_on">روشن</string>
+    <string name="switch_role">کلید</string>
+    <string name="tab">زبانه</string>
+    <string name="template_percent">%1$d درصد.</string>
+    <string name="tooltip_description">نکته‌ابزار</string>
+    <string name="tooltip_label">نمایش نکته‌ابزار</string>
+</resources>

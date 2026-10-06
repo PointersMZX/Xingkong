@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">ሉህን ዝጋ</string>
+    <string name="common_google_play_services_enable_button">አንቃ</string>
+    <string name="common_google_play_services_enable_text">Google Play አገልግሎቶችን ካላነቁ በስተቀር %1$s አይሰራም።</string>
+    <string name="common_google_play_services_enable_title">Google Play አገልግሎቶችን ያንቁ</string>
+    <string name="common_google_play_services_install_button">ጫን</string>
+    <string name="common_google_play_services_install_text">%1$s ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ በመሣሪያዎ ላይ የሉም።</string>
+    <string name="common_google_play_services_install_title">Google Play አገልግሎቶችን ያግኙ</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play አገልግሎቶች ተገኝነት</string>
+    <string name="common_google_play_services_notification_ticker">የGoogle Play አገልግሎቶች ስህተት</string>
+    <string name="common_google_play_services_unknown_issue">%1$s በGoogle Play አገልግሎቶች ላይ ችግሮች እያጋጠሙት ነው። እባክዎ እንደገና ይሞክሩ።</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ያለGoogle Play አገልግሎቶች አይሄድም፣ እነዚህም በመሣሪያዎ አይደገፉም።</string>
+    <string name="common_google_play_services_update_button">ያዘምኑ</string>
+    <string name="common_google_play_services_update_text">Google Play አገልግሎቶችን ካላዘመኑ በስተቀር ድረስ %1$s አይሰራም።</string>
+    <string name="common_google_play_services_update_title">Google Play አገልግሎቶችን ያዘምኑ</string>
+    <string name="common_google_play_services_updating_text">%1$s ያለ Google Play አገልግሎቶች አይሰራም፣ እነሱ ደግሞ በአሁኑ ጊዜ በመዘመን ላይ ናቸው።</string>
+    <string name="common_google_play_services_wear_update_text">አዲስ የGoogle Play አገልግሎቶች ስሪት ያስፈልጋል። በቅርቡ እራሱን ያዘምናል።</string>
+    <string name="common_open_on_phone">ስልክ ላይ ክፈት</string>
+    <string name="default_error_message">ልክ ያልሆነ ግቤት</string>
+    <string name="default_popup_window_title">ብቅ-ባይ መስኮት</string>
+    <string name="in_progress">በሂደት ላይ</string>
+    <string name="indeterminate">በከፊል የተፈተሸ</string>
+    <string name="m3c_bottom_sheet_collapse_description">የግርጌ ሉህን ይሰብስቡ</string>
+    <string name="m3c_bottom_sheet_dismiss_description">የግርጌ ሉህን ያሰናብቱ</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">መያዣ ይጎትቱ</string>
+    <string name="m3c_bottom_sheet_expand_description">የግርጌ ሉህ ይዘርጉ</string>
+    <string name="m3c_bottom_sheet_pane_title">የግርጌ ሉህ</string>
+    <string name="m3c_dialog">መገናኛ</string>
+    <string name="m3c_dropdown_menu_collapsed">ተሰብስቧል</string>
+    <string name="m3c_dropdown_menu_expanded">ተዘርግቷል</string>
+    <string name="m3c_dropdown_menu_toggle">ተቆልቋይ ምናሌ ይቀያይሩ</string>
+    <string name="m3c_floating_toolbar_collapse">የመሣሪያ አሞሌን ሰብስብ</string>
+    <string name="m3c_floating_toolbar_expand">የመሣሪያ አሞሌን ዘርጋ</string>
+    <string name="m3c_search_bar_search">ፈልግ</string>
+    <string name="m3c_suggestions_available">የአስተያየት ጥቆማዎች ከታች</string>
+    <string name="not_selected">ያልተመረጡ</string>
+    <string name="selected">ተመርጧል</string>
+    <string name="state_empty">ባዶ</string>
+    <string name="state_off">ጠፍቷል</string>
+    <string name="state_on">በርቷል</string>
+    <string name="switch_role">ማብሪያ/ማጥፊያ</string>
+    <string name="tab">ትር</string>
+    <string name="template_percent">%1$d በመቶ።</string>
+    <string name="tooltip_description">መሣሪያ ጥቆማ</string>
+    <string name="tooltip_label">መሣሪያ ጥቆማን አሳይ</string>
+</resources>

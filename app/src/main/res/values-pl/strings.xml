@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Zamknij arkusz</string>
+    <string name="common_google_play_services_enable_button">Włącz</string>
+    <string name="common_google_play_services_enable_text">Aplikacja %1$s nie będzie działać, jeśli nie włączysz Usług Google Play.</string>
+    <string name="common_google_play_services_enable_title">Włącz Usługi Google Play</string>
+    <string name="common_google_play_services_install_button">Zainstaluj</string>
+    <string name="common_google_play_services_install_text">%1$s nie będzie działać, jeśli nie zainstalujesz na urządzeniu Usług Google Play.</string>
+    <string name="common_google_play_services_install_title">Pobierz Usługi Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dostępność Usług Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Błąd Usług Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ma problem z dostępem do Usług Google Play. Spróbuj jeszcze raz.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nie będzie działać bez Usług Google Play, które nie są obecnie obsługiwane przez urządzenie.</string>
+    <string name="common_google_play_services_update_button">Aktualizuj</string>
+    <string name="common_google_play_services_update_text">Aplikacja %1$s nie będzie działać, jeśli nie zaktualizujesz Usług Google Play.</string>
+    <string name="common_google_play_services_update_title">Zaktualizuj Usługi Google Play</string>
+    <string name="common_google_play_services_updating_text">Aplikacja %1$s nie będzie działać bez Usług Google Play, które są obecnie aktualizowane.</string>
+    <string name="common_google_play_services_wear_update_text">Wymagana jest nowa wersja Usług Google Play. Wkrótce nastąpi automatyczna aktualizacja.</string>
+    <string name="common_open_on_phone">Otwórz na telefonie</string>
+    <string name="default_error_message">Nieprawidłowe dane wejściowe</string>
+    <string name="default_popup_window_title">Wyskakujące okienko</string>
+    <string name="in_progress">W toku</string>
+    <string name="indeterminate">Częściowo zaznaczone</string>
+    <string name="m3c_bottom_sheet_collapse_description">Zwiń planszę dolną</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Zamknij planszę dolną</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Uchwyt do przeciągania</string>
+    <string name="m3c_bottom_sheet_expand_description">Rozwiń planszę dolną</string>
+    <string name="m3c_bottom_sheet_pane_title">Plansza dolna</string>
+    <string name="m3c_dialog">Okno</string>
+    <string name="m3c_dropdown_menu_collapsed">Zwinięte</string>
+    <string name="m3c_dropdown_menu_expanded">Rozwinięte</string>
+    <string name="m3c_dropdown_menu_toggle">Pokaż lub ukryj menu</string>
+    <string name="m3c_floating_toolbar_collapse">Zwiń pasek narzędzi</string>
+    <string name="m3c_floating_toolbar_expand">Rozwiń pasek narzędzi</string>
+    <string name="m3c_search_bar_search">Szukaj</string>
+    <string name="m3c_suggestions_available">Sugestie znajdziesz poniżej</string>
+    <string name="not_selected">Nie wybrano</string>
+    <string name="selected">Wybrano</string>
+    <string name="state_empty">Puste</string>
+    <string name="state_off">Wyłączono</string>
+    <string name="state_on">Włączono</string>
+    <string name="switch_role">Przełącznik</string>
+    <string name="tab">Karta</string>
+    <string name="template_percent">%1$d procent.</string>
+    <string name="tooltip_description">etykietka</string>
+    <string name="tooltip_label">pokaż etykietkę</string>
+</resources>

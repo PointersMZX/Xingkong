@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Uždaryti lapą</string>
+    <string name="common_google_play_services_enable_button">Įgalinti</string>
+    <string name="common_google_play_services_enable_text">„%1$s“ neveiks, jei neįgalinsite „Google Play“ paslaugų.</string>
+    <string name="common_google_play_services_enable_title">Įgalinkite „Google Play“ paslaugas</string>
+    <string name="common_google_play_services_install_button">Įdiegti</string>
+    <string name="common_google_play_services_install_text">Programa „%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurių nėra įrenginyje.</string>
+    <string name="common_google_play_services_install_title">Gaukite „Google Play“ paslaugas</string>
+    <string name="common_google_play_services_notification_channel_name">„Google Play“ paslaugų pasiekiamumas</string>
+    <string name="common_google_play_services_notification_ticker">„Google Play“ paslaugų klaida</string>
+    <string name="common_google_play_services_unknown_issue">Naudojant programą „%1$s“ kilo problemų dėl „Google Play“ paslaugų. Bandykite dar kartą.</string>
+    <string name="common_google_play_services_unsupported_text">Programa „%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurių jūsų įrenginys nepalaiko.</string>
+    <string name="common_google_play_services_update_button">Atnaujinti</string>
+    <string name="common_google_play_services_update_text">„%1$s“ nebus paleidžiama, jei neatnaujinsite „Google Play“ paslaugų.</string>
+    <string name="common_google_play_services_update_title">Atnaujinkite „Google Play“ paslaugas</string>
+    <string name="common_google_play_services_updating_text">„%1$s“ nebus paleidžiama be „Google Play“ paslaugų, kurios šiuo metu atnaujinamos.</string>
+    <string name="common_google_play_services_wear_update_text">Reikia naujos versijos „Google Play“ paslaugų. Jos netrukus bus atnaujintos.</string>
+    <string name="common_open_on_phone">Atidaryti telefone</string>
+    <string name="default_error_message">Netinkama įvestis</string>
+    <string name="default_popup_window_title">Iššokantysis langas</string>
+    <string name="in_progress">Vyksta</string>
+    <string name="indeterminate">Iš dalies pažymėta</string>
+    <string name="m3c_bottom_sheet_collapse_description">Sutraukti apatinį lapą</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Atsisakyti apatinio lapo</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Vilkimo rankenėlė</string>
+    <string name="m3c_bottom_sheet_expand_description">Išskleisti apatinį lapą</string>
+    <string name="m3c_bottom_sheet_pane_title">Apatinis lapas</string>
+    <string name="m3c_dialog">Dialogo langas</string>
+    <string name="m3c_dropdown_menu_collapsed">Sutraukta</string>
+    <string name="m3c_dropdown_menu_expanded">Išskleista</string>
+    <string name="m3c_dropdown_menu_toggle">Perjungti išskleidžiamąjį meniu</string>
+    <string name="m3c_floating_toolbar_collapse">Sutraukti įrankių juostą</string>
+    <string name="m3c_floating_toolbar_expand">Išskleisti įrankių juostą</string>
+    <string name="m3c_search_bar_search">Paieška</string>
+    <string name="m3c_suggestions_available">Pasiūlymai pateikti toliau</string>
+    <string name="not_selected">Nepasirinkta</string>
+    <string name="selected">Pasirinkta</string>
+    <string name="state_empty">Tuščia</string>
+    <string name="state_off">Išjungta</string>
+    <string name="state_on">Įjungta</string>
+    <string name="switch_role">Jungiklis</string>
+    <string name="tab">Tabuliavimo klavišas</string>
+    <string name="template_percent">Procentų: %1$d.</string>
+    <string name="tooltip_description">patarimas</string>
+    <string name="tooltip_label">rodyti patarimą</string>
+</resources>

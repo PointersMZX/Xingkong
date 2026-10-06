@@ -1,0 +1,31 @@
+详情 UI 移植来源
+
+LibChecker: 995c99d05a0f1e9c69629141026d72d085b71667
+https://github.com/LibChecker/LibChecker/tree/995c99d05a0f1e9c69629141026d72d085b71667
+- DetailsTitleView.kt: 图标与文字布局、ABI 标签尺寸。
+- DetailHeaderBinder.kt: 紧凑 SDK / Size 信息行与标签缩放。
+- FeatureLabelView.kt / DetailFeatureListController.kt: 技术图标尺寸、内边距和横向间距。
+- app/src/main/res/drawable: ABI、AGP、Split APK、Xposed、PWA 图标。
+
+LibChecker-Rules-Bundle: 44.4
+https://github.com/LibChecker/LibChecker-Rules-Bundle/tree/44.4
+- library/src/main/res/drawable: Kotlin、Compose、KMP、Play Store 图标。
+
+修改: View 布局适配为 Compose; XML 图标的主题 tint 由 Compose 显式提供; 保留 Metric 的图标遮罩、返回按钮、跨用户信息及异步状态。
+许可证分别保存在 libchecker.txt 和 libchecker-rules-bundle.txt。
+
+技术详情扩展来源
+- LibChecker: FeatureDialogSpec.kt 的弹窗结构, ic_16kb_align.xml / ic_16kb_compat.xml。
+- ReactiveX 官方包名补充: io.reactivex.rxjava3.core 和 io.reactivex.rxjava3.android。
+  https://github.com/ReactiveX/RxJava
+  https://github.com/ReactiveX/RxAndroid
+- 16KB ELF / ZIP 对齐检查依据 Android 官方文档, 由 Metric 独立实现。
+  https://developer.android.com/guide/practices/page-sizes
+
+只检测固定技术标记, 不加载通用 SDK 规则库。新增说明由 Metric 编写; 原版技术图标保留各自许可。
+
+- LibChecker ic_feature_live_update.xml: 实时更新通知图标, Compose 显式主题 tint。
+- LibChecker 2.5.4 ic_reactivex.xml: RxJava / RxAndroid 图标, RxAndroid 沿用原版绿色。
+  https://github.com/LibChecker/LibChecker/tree/2.5.4
+
+技术弹窗内容参考 LibChecker 2.5.4 FeaturesDialog.kt 与 values / values-zh-rCN 文本。英文与简体中文技术介绍移植原文（以纯文本呈现），西班牙文由 Metric 翻译。Split APK 参考 AppBundleBottomSheetDialogFragment，保留本项目 base + split 的只读大小信息。

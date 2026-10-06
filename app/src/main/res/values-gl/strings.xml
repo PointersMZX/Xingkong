@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Pechar folla</string>
+    <string name="common_google_play_services_enable_button">Activar</string>
+    <string name="common_google_play_services_enable_text">%1$s non funcionará a menos que actives os servizos de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Activar servizos de Google Play</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s non se executará se o teu dispositivo non ten instalados os servizos de Google Play.</string>
+    <string name="common_google_play_services_install_title">Descargar servizos de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dispoñibilidade dos servizos de Play</string>
+    <string name="common_google_play_services_notification_ticker">Erro nos servizos de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ten problemas cos servizos de Google Play. Téntao de novo.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s non se executará sen os servizos de Google Play, que non son compatibles co teu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s non se executará a menos que actualices os servizos de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualizar os servizos de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s non se executará sen os servizos de Google Play, que se están actualizando neste momento.</string>
+    <string name="common_google_play_services_wear_update_text">Necesítase a nova versión dos servizos de Google Play. Actualizarase en breve.</string>
+    <string name="common_open_on_phone">Abrir no teléfono</string>
+    <string name="default_error_message">O texto escrito non é válido</string>
+    <string name="default_popup_window_title">Ventá emerxente</string>
+    <string name="in_progress">En curso</string>
+    <string name="indeterminate">Marcada parcialmente</string>
+    <string name="m3c_bottom_sheet_collapse_description">Contrae o panel inferior</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Pecha o panel inferior</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Controlador de arrastre</string>
+    <string name="m3c_bottom_sheet_expand_description">Desprega o panel inferior</string>
+    <string name="m3c_bottom_sheet_pane_title">Panel inferior</string>
+    <string name="m3c_dialog">Cadro de diálogo</string>
+    <string name="m3c_dropdown_menu_collapsed">Contraído</string>
+    <string name="m3c_dropdown_menu_expanded">Despregado</string>
+    <string name="m3c_dropdown_menu_toggle">Activa ou desactiva o menú despregable</string>
+    <string name="m3c_floating_toolbar_collapse">Contraer a barra de ferramentas</string>
+    <string name="m3c_floating_toolbar_expand">Despregar a barra de ferramentas</string>
+    <string name="m3c_search_bar_search">Buscar</string>
+    <string name="m3c_suggestions_available">Hai suxestións abaixo</string>
+    <string name="not_selected">Non seleccionado</string>
+    <string name="selected">Seleccionado</string>
+    <string name="state_empty">Campo baleiro</string>
+    <string name="state_off">Desactivado</string>
+    <string name="state_on">Activado</string>
+    <string name="switch_role">Interruptor</string>
+    <string name="tab">Tabulador</string>
+    <string name="template_percent">%1$d por cento.</string>
+    <string name="tooltip_description">cadro de información</string>
+    <string name="tooltip_label">mostrar cadro de información</string>
+</resources>

@@ -1,92 +1,39 @@
 name: Release
-
-# tag v* 触发：构建 app + helper 双 APK，挂 GitHub Release
-# 公益版：无会员/支付/统计；完全离线
 on:
   push:
-    tags:
-      - 'v*'
-
+    tags: [ 'v*' ]
 permissions:
   contents: write
-
 jobs:
   release:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up JDK 17
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-
-      - name: Install Android SDK packages
-        # 不用第三方 setup-android（曾失败）；runner 预装 Android SDK，手动补装 compileSdk 34 所需包
-        run: |
-          echo "ANDROID_SDK_ROOT=${ANDROID_SDK_ROOT:-<unset>} ANDROID_HOME=${ANDROID_HOME:-<unset>}"
-          SM="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
-          [ -x "$SM" ] || SM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
-          [ -x "$SM" ] || { echo "sdkmanager 未找到"; exit 1; }
-          yes | "$SM" "platforms;android-34" "build-tools;34.0.0" "platform-tools"
-
-      - name: Build helper + inject into app assets + build app
-        # 维持原设计：helper APK 嵌入主 App 的 assets/helper/，Release 只发 1 个主 APK
-        run: |
-          set -e
-          chmod +x gradlew
-          # 1) 先构建 helper
-          bash gradlew :helper:assembleRelease --no-daemon
-          # 2) 注入 helper APK 到主 App assets（CI 产物里主 APK 内含 helper）
-          cp helper/build/outputs/apk/release/helper-release.apk app/src/main/assets/helper/xingkong-helper.apk
-          echo "helper 注入：$(ls -la app/src/main/assets/helper/xingkong-helper.apk)"
-          # 3) 再构建主 App（assets 含 helper）
-          bash gradlew :app:assembleRelease --no-daemon
-
-      - name: Package main APK
-        run: |
-          set -e
-          VERSION="${GITHUB_REF_NAME#v}"
-          mkdir -p release-apk
-          cp app/build/outputs/apk/release/app-release.apk "release-apk/Xingkong_v$VERSION.apk"
-          echo "=== 上传清单（只 1 个主 APK，内嵌 helper）==="
-          ls -la release-apk/
-
-      - name: Delete existing release for clean re-release
-        # 重发同一 tag 时删旧 Release（含 name 修复），保证名字不被旧 release 残留
-        run: |
-          gh release delete "${GITHUB_REF_NAME}" --yes 2>/dev/null && echo "已删旧 release ${GITHUB_REF_NAME}" || echo "无旧 release"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Create Release and Upload APKs
+      - uses: actions/checkout@v4
+      - name: Delete existing release
+        run: gh release delete "${GITHUB_REF_NAME}" --yes 2>/dev/null || true
+        env: { GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} }
+      - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           name: 星控 ${{ github.ref_name }}
           body: |
             星控（Xingkong）${{ github.ref_name }}
 
-            Android 专业级性能监视工具，App + Daemon 双组件运行。用于查看设备性能状态、管理悬浮窗监视器、记录帧率相关会话数据。
+            Android 专业级性能监视工具，App + Daemon 双组件运行。
 
-            ## 本版本要点
-            - 性能监视：CPU / 内存 / GPU / 温度 / 电池 实时指标
-            - 悬浮窗监视器：实时数据胶囊，可选字段，不可用时显示 --
-            - FPS 记录：开始/停止/计时，历史记录与详情统计（最大/最小/平均/1% Low/5% Low）
-            - 快捷磁贴：下拉通知栏快捷开始/停止 FPS 记录
-            - 全部功能免费开放，不收取任何费用
+            ## 功能
+            - 实时性能：CPU / 内存 / GPU / 温度 / 电池 / 功率
+            - 悬浮窗监视器 + FPS 记录 + 快捷磁贴
+            - 历史会话与详情统计（最大/最小/平均/1% Low/5% Low）
 
-            ## 下载说明
+            ## 下载
             - **Xingkong_${{ github.ref_name }}.apk**：主 App（已内置 GPU 频率 Helper）
-            - 全部功能免费开放；本应用完全离线运行，无任何云端上报。
+            - 全部功能免费开放；完全离线运行，无任何云端上报
 
             ## 安装
-            1. 安装主 App。
-            2. 首次引导中选择「Root 启动」或复制「Shell 命令」到 ADB Shell 执行，以启动 Daemon。
-            3. 需要 GPU 频率指标时，在「设置 → 启动 → 安装 Helper」里一键导出 Helper 并复制 ADB 安装命令执行即可。
-          files: |
-            release-apk/Xingkong_v*.apk
-          fail_on_unmatched_files: false
-          draft: false
+            1. 安装主 App
+            2. 首次引导：Root 启动 或 复制 Shell 命令到 ADB Shell 执行启动 Daemon
+            3. 需要 GPU 频率时：设置 → 启动 → 安装 Helper（一键导出 + ADB 安装）
+          files: release/Xingkong_*.apk
+          fail_on_unmatched_files: true
           prerelease: false

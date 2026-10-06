@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Zatvaranje tabele</string>
+    <string name="common_google_play_services_enable_button">Omogući</string>
+    <string name="common_google_play_services_enable_text">Aplikacija %1$s neće raditi ako ne omogućite Google Play usluge.</string>
+    <string name="common_google_play_services_enable_title">Omogućite Google Play usluge</string>
+    <string name="common_google_play_services_install_button">Instaliraj</string>
+    <string name="common_google_play_services_install_text">Aplikacija %1$s neće raditi bez Google Play usluga, kojih na vašem uređaju nema.</string>
+    <string name="common_google_play_services_install_title">Nabavite Google Play usluge</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnost Google Play usluga</string>
+    <string name="common_google_play_services_notification_ticker">Greška Google Play usluge</string>
+    <string name="common_google_play_services_unknown_issue">Aplikacija %1$s ima problema s Google Play uslugama. Pokušajte ponovo.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikacija %1$s neće raditi bez Google Play usluga, koje vaš uređaj ne podržava.</string>
+    <string name="common_google_play_services_update_button">Ažuriraj</string>
+    <string name="common_google_play_services_update_text">Aplikacija %1$s neće raditi ako ne ažurirate Google Play usluge.</string>
+    <string name="common_google_play_services_update_title">Ažuriranje Google Play usluga</string>
+    <string name="common_google_play_services_updating_text">Aplikacija %1$s neće raditi bez Google Play usluga, koje se trenutno ažuriraju.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija Google Play usluga. Ubrzo će se samo ažurirati.</string>
+    <string name="common_open_on_phone">Otvori na telefonu</string>
+    <string name="default_error_message">Pogrešan unos</string>
+    <string name="default_popup_window_title">Skočni prozor</string>
+    <string name="in_progress">U toku</string>
+    <string name="indeterminate">Djelimično označeno</string>
+    <string name="m3c_bottom_sheet_collapse_description">Sužavanje donje tabele</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Odbacivanje donje tabele</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Ručica za prevlačenje</string>
+    <string name="m3c_bottom_sheet_expand_description">Proširivanje donje tabele</string>
+    <string name="m3c_bottom_sheet_pane_title">Donja tabela</string>
+    <string name="m3c_dialog">Dijaloški okvir</string>
+    <string name="m3c_dropdown_menu_collapsed">Suženo</string>
+    <string name="m3c_dropdown_menu_expanded">Prošireno</string>
+    <string name="m3c_dropdown_menu_toggle">Uključivanje/isključivanje padajućeg menija</string>
+    <string name="m3c_floating_toolbar_collapse">Sužavanje alatne trake</string>
+    <string name="m3c_floating_toolbar_expand">Proširivanje alatne trake</string>
+    <string name="m3c_search_bar_search">Pretraživanje</string>
+    <string name="m3c_suggestions_available">Prijedlozi su u nastavku</string>
+    <string name="not_selected">Nije odabrano</string>
+    <string name="selected">Odabrano</string>
+    <string name="state_empty">Prazno</string>
+    <string name="state_off">Isključeno</string>
+    <string name="state_on">Uključeno</string>
+    <string name="switch_role">Promijeni</string>
+    <string name="tab">Kartica</string>
+    <string name="template_percent">%1$d posto.</string>
+    <string name="tooltip_description">skočni opis</string>
+    <string name="tooltip_label">prikaži skočni opis</string>
+</resources>

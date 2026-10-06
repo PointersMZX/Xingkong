@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Tanca el full</string>
+    <string name="common_google_play_services_enable_button">Activa</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionarà si no actives Serveis de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Activa Serveis de Google Play</string>
+    <string name="common_google_play_services_install_button">Instal·la</string>
+    <string name="common_google_play_services_install_text">"%1$s no s'executarà si Serveis de Google Play no està instal·lat al dispositiu."</string>
+    <string name="common_google_play_services_install_title">Obtén Serveis de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilitat de serveis de Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Serveis de Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s té problemes amb Serveis de Google Play. Torna-ho a provar.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s no es pot executar sense Serveis de Google Play, que no és compatible amb el teu dispositiu.</string>
+    <string name="common_google_play_services_update_button">Actualitza</string>
+    <string name="common_google_play_services_update_text">"%1$s no s'executarà si no actualitzes Serveis de Google Play."</string>
+    <string name="common_google_play_services_update_title">Actualitza Serveis de Google Play</string>
+    <string name="common_google_play_services_updating_text">"%1$s no s'executarà sense Serveis de Google Play, que s'està actualitzant en aquest moment."</string>
+    <string name="common_google_play_services_wear_update_text">"Cal una nova versió de Serveis de Google Play. S'actualitzarà automàticament aviat."</string>
+    <string name="common_open_on_phone">Obre al telèfon</string>
+    <string name="default_error_message">"L'entrada no és vàlida"</string>
+    <string name="default_popup_window_title">Finestra emergent</string>
+    <string name="in_progress">En curs</string>
+    <string name="indeterminate">Marcat parcialment</string>
+    <string name="m3c_bottom_sheet_collapse_description">Replega el full inferior</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Ignora el full inferior</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Ansa de posicionament</string>
+    <string name="m3c_bottom_sheet_expand_description">Desplega el full inferior</string>
+    <string name="m3c_bottom_sheet_pane_title">Full inferior</string>
+    <string name="m3c_dialog">Quadre de diàleg</string>
+    <string name="m3c_dropdown_menu_collapsed">"S'ha replegat"</string>
+    <string name="m3c_dropdown_menu_expanded">"S'ha desplegat"</string>
+    <string name="m3c_dropdown_menu_toggle">Commuta el menú desplegable</string>
+    <string name="m3c_floating_toolbar_collapse">"Replega la barra d'eines"</string>
+    <string name="m3c_floating_toolbar_expand">"Desplega la barra d'eines"</string>
+    <string name="m3c_search_bar_search">Cerca</string>
+    <string name="m3c_suggestions_available">Suggeriments a continuació</string>
+    <string name="not_selected">No seleccionat</string>
+    <string name="selected">Seleccionat</string>
+    <string name="state_empty">Buit</string>
+    <string name="state_off">Desactivat</string>
+    <string name="state_on">Activat</string>
+    <string name="switch_role">Interruptor</string>
+    <string name="tab">Pestanya</string>
+    <string name="template_percent">%1$d per cent</string>
+    <string name="tooltip_description">descripció emergent</string>
+    <string name="tooltip_label">mostra la descripció emergent</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Đóng trang tính</string>
+    <string name="common_google_play_services_enable_button">Bật</string>
+    <string name="common_google_play_services_enable_text">%1$s sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play.</string>
+    <string name="common_google_play_services_enable_title">Bật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_install_button">Cài đặt</string>
+    <string name="common_google_play_services_install_text">%1$s sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này.</string>
+    <string name="common_google_play_services_install_title">Cài đặt dịch vụ của Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Phạm vi cung cấp Dịch vụ Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Lỗi dịch vụ của Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s đang gặp sự cố với Dịch vụ Google Play. Hãy thử lại.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s sẽ không chạy nếu không có Dịch vụ Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này.</string>
+    <string name="common_google_play_services_update_button">Cập nhật</string>
+    <string name="common_google_play_services_update_text">%1$s sẽ không chạy trừ khi bạn cập nhật Dịch vụ Google Play.</string>
+    <string name="common_google_play_services_update_title">Cập nhật dịch vụ của Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật.</string>
+    <string name="common_google_play_services_wear_update_text">Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật.</string>
+    <string name="common_open_on_phone">Mở trên điện thoại</string>
+    <string name="default_error_message">Giá trị nhập không hợp lệ</string>
+    <string name="default_popup_window_title">Cửa sổ bật lên</string>
+    <string name="in_progress">Đang thực hiện</string>
+    <string name="indeterminate">Đã kiểm tra một phần</string>
+    <string name="m3c_bottom_sheet_collapse_description">Thu gọn bảng dưới cùng</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Đóng bảng dưới cùng</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Nút kéo</string>
+    <string name="m3c_bottom_sheet_expand_description">Mở rộng bảng dưới cùng</string>
+    <string name="m3c_bottom_sheet_pane_title">Bảng dưới cùng</string>
+    <string name="m3c_dialog">Hộp thoại</string>
+    <string name="m3c_dropdown_menu_collapsed">Đã thu gọn</string>
+    <string name="m3c_dropdown_menu_expanded">Đã mở rộng</string>
+    <string name="m3c_dropdown_menu_toggle">Bật/tắt trình đơn thả xuống</string>
+    <string name="m3c_floating_toolbar_collapse">Thu gọn thanh công cụ</string>
+    <string name="m3c_floating_toolbar_expand">Mở rộng thanh công cụ</string>
+    <string name="m3c_search_bar_search">Tìm kiếm</string>
+    <string name="m3c_suggestions_available">Các đề xuất ở bên dưới</string>
+    <string name="not_selected">Chưa chọn</string>
+    <string name="selected">Đã chọn</string>
+    <string name="state_empty">Trống</string>
+    <string name="state_off">Đang tắt</string>
+    <string name="state_on">Đang bật</string>
+    <string name="switch_role">Chuyển</string>
+    <string name="tab">Thẻ</string>
+    <string name="template_percent">%1$d%%.</string>
+    <string name="tooltip_description">chú thích</string>
+    <string name="tooltip_label">hiện chú thích</string>
+</resources>

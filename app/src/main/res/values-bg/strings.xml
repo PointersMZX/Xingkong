@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Затваряне на таблицата</string>
+    <string name="common_google_play_services_enable_button">Активиране</string>
+    <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string name="common_google_play_services_install_button">Инсталиране</string>
+    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
+    <string name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Наличност на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
+    <string name="common_google_play_services_update_button">Актуализиране</string>
+    <string name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
+    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="default_error_message">Въведеното е невалидно</string>
+    <string name="default_popup_window_title">Изскачащ прозорец</string>
+    <string name="in_progress">В ход</string>
+    <string name="indeterminate">Частично отметнато</string>
+    <string name="m3c_bottom_sheet_collapse_description">Свиване на долния лист</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Отхвърляне на долния лист</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Манипулатор за преместване с плъзгане</string>
+    <string name="m3c_bottom_sheet_expand_description">Разгъване на долния лист</string>
+    <string name="m3c_bottom_sheet_pane_title">Долен лист</string>
+    <string name="m3c_dialog">Диалогов прозорец</string>
+    <string name="m3c_dropdown_menu_collapsed">Свито</string>
+    <string name="m3c_dropdown_menu_expanded">Разгънато</string>
+    <string name="m3c_dropdown_menu_toggle">Превключване на падащото меню</string>
+    <string name="m3c_floating_toolbar_collapse">Свиване на лентата с инструменти</string>
+    <string name="m3c_floating_toolbar_expand">Разгъване на лентата с инструменти</string>
+    <string name="m3c_search_bar_search">Лента за търсене</string>
+    <string name="m3c_suggestions_available">Предложенията са по-долу</string>
+    <string name="not_selected">Не е избрано</string>
+    <string name="selected">Избрано</string>
+    <string name="state_empty">Празно</string>
+    <string name="state_off">Изключено</string>
+    <string name="state_on">Включено</string>
+    <string name="switch_role">Превключване</string>
+    <string name="tab">Раздел</string>
+    <string name="template_percent">%1$d процента.</string>
+    <string name="tooltip_description">подсказка</string>
+    <string name="tooltip_label">показване на подсказка</string>
+</resources>

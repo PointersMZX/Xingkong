@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">শ্বীট বন্ধ কৰক</string>
+    <string name="common_google_play_services_enable_button">সক্ষম কৰক</string>
+    <string name="common_google_play_services_enable_text">আপুনি Google Play সেৱাবোৰ সক্ষম নকৰালৈকে %1$sএ কাম নকৰিব।</string>
+    <string name="common_google_play_services_enable_title">Google প্লে সেৱাসক্ষম কৰক</string>
+    <string name="common_google_play_services_install_button">ইনষ্টল কৰক</string>
+    <string name="common_google_play_services_install_text">%1$s Google প্লে সেৱাৰ অবিহনে নচলে, যিটো আপোনাৰ ডিভাইচত নাই।</string>
+    <string name="common_google_play_services_install_title">Google প্লে সেৱালাভ কৰক</string>
+    <string name="common_google_play_services_notification_channel_name">Google প্লে সেৱাসমূহৰ উপলব্ধতা</string>
+    <string name="common_google_play_services_notification_ticker">Google Playৰ সেৱা সম্পৰ্কীয় আসোঁৱাহ</string>
+    <string name="common_google_play_services_unknown_issue">Google প্লে সেৱাত %1$s ত সমস্যা হৈ আছে। আকৌ চেষ্টা কৰক।</string>
+    <string name="common_google_play_services_unsupported_text">%1$s Google প্লে সেৱাৰ অবিহনে নচলে, যিবোৰ আপোনাৰ ডিভাইচত চলিব নোৱাৰে।</string>
+    <string name="common_google_play_services_update_button">আপডে’ট কৰক</string>
+    <string name="common_google_play_services_update_text">আপুনি Google Play সেৱাবোৰ আপডে’ট নকৰালৈকে %1$s নচলিব।</string>
+    <string name="common_google_play_services_update_title">Google Play সেৱা আপডে’ট কৰক</string>
+    <string name="common_google_play_services_updating_text">বৰ্তমান আপডে’ট হৈ থকা Google Play সেৱাসমূহৰ অবিহনে %1$s নচলিব৷</string>
+    <string name="common_google_play_services_wear_update_text">Google Play সেৱাসমূহৰ নতুন সংস্কৰণৰ প্ৰয়োজন৷ এইটো শীঘ্ৰেই নিজে-নিজে আপডে’ট হ’ব৷</string>
+    <string name="common_open_on_phone">"ফ'নত খোলক"</string>
+    <string name="default_error_message">অমান্য ইনপুট</string>
+    <string name="default_popup_window_title">পপ-আপ ৱিণ্ড’</string>
+    <string name="in_progress">প্ৰক্ৰিয়াকৰণ কৰি থকা হৈছে</string>
+    <string name="indeterminate">আংশিকভাৱে পৰীক্ষা কৰা হৈছে</string>
+    <string name="m3c_bottom_sheet_collapse_description">তলৰ শ্বীটখন সংকোচন কৰক</string>
+    <string name="m3c_bottom_sheet_dismiss_description">তলৰ শ্বীটখন অগ্ৰাহ্য কৰক</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">ড্ৰেগ হেণ্ডেল</string>
+    <string name="m3c_bottom_sheet_expand_description">তলৰ শ্বীটখন বিস্তাৰ কৰক</string>
+    <string name="m3c_bottom_sheet_pane_title">তলৰ শ্বীট</string>
+    <string name="m3c_dialog">ডায়ল’গ</string>
+    <string name="m3c_dropdown_menu_collapsed">সংকোচন কৰা আছে</string>
+    <string name="m3c_dropdown_menu_expanded">বিস্তাৰ কৰা আছে</string>
+    <string name="m3c_dropdown_menu_toggle">ড্ৰপডাউন মেনু ট’গল কৰক</string>
+    <string name="m3c_floating_toolbar_collapse">টুলবাৰ সংকোচন কৰক</string>
+    <string name="m3c_floating_toolbar_expand">টুলবাৰ বিস্তাৰ কৰক</string>
+    <string name="m3c_search_bar_search">সন্ধান কৰক</string>
+    <string name="m3c_suggestions_available">তলত পৰামৰ্শ দেখুওৱা হৈছে</string>
+    <string name="not_selected">বাছনি কৰা হোৱা নাই</string>
+    <string name="selected">বাছনি কৰা হৈছে</string>
+    <string name="state_empty">খালী</string>
+    <string name="state_off">অফ আছে</string>
+    <string name="state_on">অন আছে</string>
+    <string name="switch_role">ছুইচ</string>
+    <string name="tab">টেব</string>
+    <string name="template_percent">%1$d শতাংশ।</string>
+    <string name="tooltip_description">টুলটিপ</string>
+    <string name="tooltip_label">টুলটিপ দেখুৱাওক</string>
+</resources>

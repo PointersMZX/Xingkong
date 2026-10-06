@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Isara ang sheet</string>
+    <string name="common_google_play_services_enable_button">I-enable</string>
+    <string name="common_google_play_services_enable_text">Hindi gagana ang %1$s maliban kung ie-enable mo ang mga serbisyo ng Google Play.</string>
+    <string name="common_google_play_services_enable_title">I-enable ang mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_install_button">I-install</string>
+    <string name="common_google_play_services_install_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na wala sa iyong device.</string>
+    <string name="common_google_play_services_install_title">Kunin ang mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Availability ng serbisyo ng Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Error sa Mga Serbisyo ng Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Nagkakaproblema ang %1$s sa mga serbisyo ng Google Play. Pakisubukan ulit.</string>
+    <string name="common_google_play_services_unsupported_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play, na hindi nasusuportahan ng iyong device.</string>
+    <string name="common_google_play_services_update_button">I-update</string>
+    <string name="common_google_play_services_update_text">Hindi gagana ang %1$s maliban kung i-a-update mo ang mga serbisyo ng Google Play.</string>
+    <string name="common_google_play_services_update_title">I-update ang mga serbisyo ng Google Play</string>
+    <string name="common_google_play_services_updating_text">Hindi gagana ang %1$s nang wala ang mga serbisyo ng Google Play na kasalukuyang ina-update.</string>
+    <string name="common_google_play_services_wear_update_text">Kailangan ang bagong bersyon ng mga serbisyo ng Google Play. Mag-a-update itong mag-isa sa ilang sandali.</string>
+    <string name="common_open_on_phone">Buksan sa telepono</string>
+    <string name="default_error_message">Invalid na input</string>
+    <string name="default_popup_window_title">Window ng Pop-Up</string>
+    <string name="in_progress">Isinasagawa</string>
+    <string name="indeterminate">Bahagyang may check</string>
+    <string name="m3c_bottom_sheet_collapse_description">I-collapse ang bottom sheet</string>
+    <string name="m3c_bottom_sheet_dismiss_description">I-dismiss ang bottom sheet</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Handle sa pag-drag</string>
+    <string name="m3c_bottom_sheet_expand_description">Palawakin ang bottom sheet</string>
+    <string name="m3c_bottom_sheet_pane_title">Bottom Sheet</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Naka-collapse</string>
+    <string name="m3c_dropdown_menu_expanded">Naka-expand</string>
+    <string name="m3c_dropdown_menu_toggle">I-toggle ang dropdown menu</string>
+    <string name="m3c_floating_toolbar_collapse">I-collapse ang toolbar</string>
+    <string name="m3c_floating_toolbar_expand">I-expand ang toolbar</string>
+    <string name="m3c_search_bar_search">Maghanap</string>
+    <string name="m3c_suggestions_available">Mga suhestyon sa ibaba</string>
+    <string name="not_selected">Hindi napili</string>
+    <string name="selected">Napili</string>
+    <string name="state_empty">Walang laman</string>
+    <string name="state_off">Naka-off</string>
+    <string name="state_on">Naka-on</string>
+    <string name="switch_role">Lumipat</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d (na) porsyento.</string>
+    <string name="tooltip_description">tooltip</string>
+    <string name="tooltip_label">ipakita ang tooltip</string>
+</resources>

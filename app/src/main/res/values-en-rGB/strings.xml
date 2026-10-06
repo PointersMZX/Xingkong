@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Close sheet</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text">"%1$s won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text">"%1$s won't run without Google Play services, which are missing from your device."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text">"%1$s won't run without Google Play services, which are not supported by your device."</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">"%1$s won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text">"%1$s won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="default_error_message">Invalid input</string>
+    <string name="default_popup_window_title">Pop-up window</string>
+    <string name="in_progress">In progress</string>
+    <string name="indeterminate">Partially ticked</string>
+    <string name="m3c_bottom_sheet_collapse_description">Collapse bottom sheet</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Dismiss bottom sheet</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Drag handle</string>
+    <string name="m3c_bottom_sheet_expand_description">Expand bottom sheet</string>
+    <string name="m3c_bottom_sheet_pane_title">Bottom sheet</string>
+    <string name="m3c_dialog">Dialogue</string>
+    <string name="m3c_dropdown_menu_collapsed">Collapsed</string>
+    <string name="m3c_dropdown_menu_expanded">Expanded</string>
+    <string name="m3c_dropdown_menu_toggle">Toggle drop-down menu</string>
+    <string name="m3c_floating_toolbar_collapse">Collapse toolbar</string>
+    <string name="m3c_floating_toolbar_expand">Expand toolbar</string>
+    <string name="m3c_search_bar_search">Search</string>
+    <string name="m3c_suggestions_available">Suggestions below</string>
+    <string name="not_selected">Not selected</string>
+    <string name="selected">Selected</string>
+    <string name="state_empty">Empty</string>
+    <string name="state_off">Off</string>
+    <string name="state_on">On</string>
+    <string name="switch_role">Switch</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d per cent.</string>
+    <string name="tooltip_description">tooltip</string>
+    <string name="tooltip_label">show tooltip</string>
+</resources>

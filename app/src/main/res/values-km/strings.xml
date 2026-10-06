@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">បិទសន្លឹក</string>
+    <string name="common_google_play_services_enable_button">បើក</string>
+    <string name="common_google_play_services_enable_text">%1$s នឹងមិនដំណើរការទេ លុះត្រាតែអ្នកបើកសេវាកម្ម Google Play។</string>
+    <string name="common_google_play_services_enable_title">បើកសេវាកម្ម Google Play</string>
+    <string name="common_google_play_services_install_button">ដំឡើង</string>
+    <string name="common_google_play_services_install_text">%1$s នឹងមិនដំណើរការទេ ប្រសិនបើមិនមានសេវាកម្មនានារបស់ Google Play ដែលបានបាត់ពីឧបករណ៍របស់អ្នក។</string>
+    <string name="common_google_play_services_install_title">ទាញយកសេវាកម្ម Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">លទ្ធភាព​ប្រើប្រាស់សេវាកម្ម Google Play</string>
+    <string name="common_google_play_services_notification_ticker">កំហុស​​សេវាកម្ម​ Google កម្សាន្ត</string>
+    <string name="common_google_play_services_unknown_issue">%1$s កំពុងមានបញ្ហាជាមួយសេវាកម្មរបស់ Google Play ។ សូមព្យាយាមម្តងទៀតនៅពេលក្រោយ។</string>
+    <string name="common_google_play_services_unsupported_text">%1$s នឹងមិនដំណើរការដោយគ្មានសេវាកម្មរបស់ Google Play ដែលឧបករណ៍របស់អ្នកមិនគាំទ្រនោះទេ។</string>
+    <string name="common_google_play_services_update_button">ធ្វើបច្ចុប្បន្នភាព</string>
+    <string name="common_google_play_services_update_text">%1$s នឹងមិនដំណើរការទេ លុះត្រាតែអ្នកធ្វើបច្ចុប្បន្នភាពសេវាកម្ម Google Play។</string>
+    <string name="common_google_play_services_update_title">អាប់ដេតសេវាកម្ម Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s នឹងមិនដំណើរការទេ បើមិនមានសេវាកម្ម Google Play ដោយសារតែវាកំពុងអាប់ដេត។</string>
+    <string name="common_google_play_services_wear_update_text">តម្រូវឲ្យមានកំណែថ្មីនៃសេវាកម្ម Google Play។ វានឹងអាប់ដេតដោយខ្លួនវានៅពេលបន្តិចទៀតនេះ។</string>
+    <string name="common_open_on_phone">បើកតាមទូរស័ព្ទ</string>
+    <string name="default_error_message">ការបញ្ចូល​មិនត្រឹមត្រូវ</string>
+    <string name="default_popup_window_title">វិនដូ​លោតឡើង</string>
+    <string name="in_progress">កំពុងដំណើរការ</string>
+    <string name="indeterminate">បានធីកខ្លះ</string>
+    <string name="m3c_bottom_sheet_collapse_description">បង្រួម​សន្លឹកខាងក្រោម</string>
+    <string name="m3c_bottom_sheet_dismiss_description">ច្រានចោល​សន្លឹកខាងក្រោម</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">ដង​អូស</string>
+    <string name="m3c_bottom_sheet_expand_description">ពង្រីក​សន្លឹកខាងក្រោម</string>
+    <string name="m3c_bottom_sheet_pane_title">សន្លឹក​ខាងក្រោម</string>
+    <string name="m3c_dialog">ប្រអប់</string>
+    <string name="m3c_dropdown_menu_collapsed">បាន​បង្រួម</string>
+    <string name="m3c_dropdown_menu_expanded">បាន​ពង្រីក</string>
+    <string name="m3c_dropdown_menu_toggle">បិទ/បើកម៉ឺនុយ​ធ្លាក់​ចុះ</string>
+    <string name="m3c_floating_toolbar_collapse">បង្រួមរបារឧបករណ៍</string>
+    <string name="m3c_floating_toolbar_expand">ពង្រីករបារឧបករណ៍</string>
+    <string name="m3c_search_bar_search">ស្វែងរក</string>
+    <string name="m3c_suggestions_available">ការណែនាំខាងក្រោម</string>
+    <string name="not_selected">មិនបាន​ជ្រើសរើស</string>
+    <string name="selected">បានជ្រើសរើស</string>
+    <string name="state_empty">ទទេ</string>
+    <string name="state_off">បិទ</string>
+    <string name="state_on">បើក</string>
+    <string name="switch_role">ប៊ូតុង​បិទបើក</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d ភាគរយ។</string>
+    <string name="tooltip_description">កំណត់​ពន្យល់</string>
+    <string name="tooltip_label">បង្ហាញ​កំណត់​ពន្យល់</string>
+</resources>

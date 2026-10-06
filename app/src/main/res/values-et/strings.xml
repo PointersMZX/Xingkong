@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Sule leht</string>
+    <string name="common_google_play_services_enable_button">Luba</string>
+    <string name="common_google_play_services_enable_text">Rakendus %1$s töötab ainult siis, kui lubate Google Play teenused.</string>
+    <string name="common_google_play_services_enable_title">Google Play teenuste lubamine</string>
+    <string name="common_google_play_services_install_button">Installi</string>
+    <string name="common_google_play_services_install_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida teie seadmes pole.</string>
+    <string name="common_google_play_services_install_title">Google Play teenuste hankimine</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play teenuste saadavalolek</string>
+    <string name="common_google_play_services_notification_ticker">Viga Google Play teenustes</string>
+    <string name="common_google_play_services_unknown_issue">Rakendusel %1$s on probleeme Google Play teenustega. Proovige uuesti.</string>
+    <string name="common_google_play_services_unsupported_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida teie seadmes ei toetata.</string>
+    <string name="common_google_play_services_update_button">Värskenda</string>
+    <string name="common_google_play_services_update_text">Rakenduse %1$s töötamiseks peate värskendama Google Play teenuseid.</string>
+    <string name="common_google_play_services_update_title">Google Play teenuste värskendamine</string>
+    <string name="common_google_play_services_updating_text">Rakendus %1$s töötab ainult koos Google Play teenustega, mida praegu värskendatakse.</string>
+    <string name="common_google_play_services_wear_update_text">Vajalik on Google Play teenuste uus versioon. See värskendab end peagi.</string>
+    <string name="common_open_on_phone">Ava telefonis</string>
+    <string name="default_error_message">Sobimatu sisend</string>
+    <string name="default_popup_window_title">Hüpikaken</string>
+    <string name="in_progress">Pooleli</string>
+    <string name="indeterminate">Osaliselt märgitud</string>
+    <string name="m3c_bottom_sheet_collapse_description">Alumise lehe ahendamine</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Alumisest lehest loobumine</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Lohistamispide</string>
+    <string name="m3c_bottom_sheet_expand_description">Alumise lehe laiendamine</string>
+    <string name="m3c_bottom_sheet_pane_title">Alumine leht</string>
+    <string name="m3c_dialog">Dialoog</string>
+    <string name="m3c_dropdown_menu_collapsed">Ahendatud</string>
+    <string name="m3c_dropdown_menu_expanded">Laiendatud</string>
+    <string name="m3c_dropdown_menu_toggle">Rippmenüü lülitamine</string>
+    <string name="m3c_floating_toolbar_collapse">Tööriistariba ahendamine</string>
+    <string name="m3c_floating_toolbar_expand">Tööriistariba laiendamine</string>
+    <string name="m3c_search_bar_search">Otsing</string>
+    <string name="m3c_suggestions_available">Soovitused on allpool</string>
+    <string name="not_selected">Pole valitud</string>
+    <string name="selected">Valitud</string>
+    <string name="state_empty">Tühi</string>
+    <string name="state_off">Väljas</string>
+    <string name="state_on">Sees</string>
+    <string name="switch_role">Lüliti</string>
+    <string name="tab">Vaheleht</string>
+    <string name="template_percent">%1$d protsenti.</string>
+    <string name="tooltip_description">kohtspikker</string>
+    <string name="tooltip_label">kuva kohtspikker</string>
+</resources>

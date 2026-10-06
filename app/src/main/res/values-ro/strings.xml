@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Închide foaia</string>
+    <string name="common_google_play_services_enable_button">Activează</string>
+    <string name="common_google_play_services_enable_text">%1$s nu va funcționa decât dacă activezi serviciile Google Play.</string>
+    <string name="common_google_play_services_enable_title">Activează serviciile Google Play</string>
+    <string name="common_google_play_services_install_button">Instalează</string>
+    <string name="common_google_play_services_install_text">%1$s nu va rula fără serviciile Google Play, care lipsesc de pe dispozitivul tău.</string>
+    <string name="common_google_play_services_install_title">Descarcă serviciile Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disponibilitatea serviciilor Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Eroare a serviciilor Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s întâmpină probleme privind serviciile Google Play. Încearcă din nou.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nu va rula fără serviciile Google Play, care nu sunt acceptate de dispozitivul tău.</string>
+    <string name="common_google_play_services_update_button">Actualizează</string>
+    <string name="common_google_play_services_update_text">%1$s nu va rula decât dacă actualizezi serviciile Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualizează serviciile Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s nu va rula fără serviciile Google Play, care momentan se actualizează.</string>
+    <string name="common_google_play_services_wear_update_text">Este necesară o nouă versiune a serviciilor Google Play. Se vor actualiza automat în curând.</string>
+    <string name="common_open_on_phone">Deschide pe telefon</string>
+    <string name="default_error_message">Intrare nevalidă</string>
+    <string name="default_popup_window_title">Fereastră pop-up</string>
+    <string name="in_progress">În curs</string>
+    <string name="indeterminate">Bifată parțial</string>
+    <string name="m3c_bottom_sheet_collapse_description">Restrânge foaia din partea de jos</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Închide foaia din partea de jos</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Ghidaj de tragere</string>
+    <string name="m3c_bottom_sheet_expand_description">Extinde foaia din partea de jos</string>
+    <string name="m3c_bottom_sheet_pane_title">Foaia din partea de jos</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Restrâns</string>
+    <string name="m3c_dropdown_menu_expanded">Extins</string>
+    <string name="m3c_dropdown_menu_toggle">Comută meniul drop-down</string>
+    <string name="m3c_floating_toolbar_collapse">Restrânge bara de instrumente</string>
+    <string name="m3c_floating_toolbar_expand">Extinde bara de instrumente</string>
+    <string name="m3c_search_bar_search">Caută</string>
+    <string name="m3c_suggestions_available">Sugestii mai jos</string>
+    <string name="not_selected">Neselectat</string>
+    <string name="selected">Selectat</string>
+    <string name="state_empty">Gol</string>
+    <string name="state_off">Dezactivat</string>
+    <string name="state_on">Activat</string>
+    <string name="switch_role">Comută</string>
+    <string name="tab">Filă</string>
+    <string name="template_percent">%1$d %%.</string>
+    <string name="tooltip_description">balon explicativ</string>
+    <string name="tooltip_label">afișează balonul explicativ</string>
+</resources>

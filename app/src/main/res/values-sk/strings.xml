@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Zavrieť hárok</string>
+    <string name="common_google_play_services_enable_button">Povoliť</string>
+    <string name="common_google_play_services_enable_text">Aplikácia %1$s bude fungovať až po povolení služieb Google Play.</string>
+    <string name="common_google_play_services_enable_title">Povoliť služby Google Play</string>
+    <string name="common_google_play_services_install_button">Inštalovať</string>
+    <string name="common_google_play_services_install_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré na zariadení nemáte.</string>
+    <string name="common_google_play_services_install_title">Inštalovať služby Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnosť služieb Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Chyba služieb Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Aplikácia %1$s má problémy so službami Google Play. Skúste to znova.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikáciu %1$s nebude možné spustiť bez služieb Google Play, ktoré vaše zariadenie nepodporuje.</string>
+    <string name="common_google_play_services_update_button">Aktualizovať</string>
+    <string name="common_google_play_services_update_text">Aplikáciu %1$s bude možné spustiť až po aktualizácii služieb Google Play.</string>
+    <string name="common_google_play_services_update_title">Aktualizácia služieb Google Play</string>
+    <string name="common_google_play_services_updating_text">Na spustenie aplikácie %1$s sa vyžadujú služby Google Play, ktoré sa momentálne aktualizujú.</string>
+    <string name="common_google_play_services_wear_update_text">Vyžaduje sa nová verzia služieb Google Play. Aktualizujú sa automaticky v najbližšom čase.</string>
+    <string name="common_open_on_phone">Otvoriť v telefóne</string>
+    <string name="default_error_message">Neplatný vstup</string>
+    <string name="default_popup_window_title">Vyskakovacie okno</string>
+    <string name="in_progress">Prebieha</string>
+    <string name="indeterminate">Čiastočne začiarknuté</string>
+    <string name="m3c_bottom_sheet_collapse_description">Zbaliť dolný hárok</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Zavrieť dolný hárok</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Presúvadlo</string>
+    <string name="m3c_bottom_sheet_expand_description">Rozbaliť dolný hárok</string>
+    <string name="m3c_bottom_sheet_pane_title">Dolný hárok</string>
+    <string name="m3c_dialog">Dialógové okno</string>
+    <string name="m3c_dropdown_menu_collapsed">Zbalené</string>
+    <string name="m3c_dropdown_menu_expanded">Rozbalené</string>
+    <string name="m3c_dropdown_menu_toggle">Prepnutie rozbaľovacieho zoznamu</string>
+    <string name="m3c_floating_toolbar_collapse">Zbaliť panel s nástrojmi</string>
+    <string name="m3c_floating_toolbar_expand">Rozbaliť panel s nástrojmi</string>
+    <string name="m3c_search_bar_search">Hľadať</string>
+    <string name="m3c_suggestions_available">Návrhy sú nižšie</string>
+    <string name="not_selected">Nevybrané</string>
+    <string name="selected">Vybrané</string>
+    <string name="state_empty">Prázdne</string>
+    <string name="state_off">Vypnuté</string>
+    <string name="state_on">Zapnuté</string>
+    <string name="switch_role">Prepnúť</string>
+    <string name="tab">Karta</string>
+    <string name="template_percent">%1$d %%</string>
+    <string name="tooltip_description">popis</string>
+    <string name="tooltip_label">zobraziť popis</string>
+</resources>

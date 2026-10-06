@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Maak sigblad toe</string>
+    <string name="common_google_play_services_enable_button">Aktiveer</string>
+    <string name="common_google_play_services_enable_text">%1$s sal nie werk nie tensy jy Google Play Dienste aktiveer.</string>
+    <string name="common_google_play_services_enable_title">Aktiveer Google Play Dienste</string>
+    <string name="common_google_play_services_install_button">Installeer</string>
+    <string name="common_google_play_services_install_text">%1$s sal nie sonder Google Play Dienste werk nie, wat nie op jou toestel is nie.</string>
+    <string name="common_google_play_services_install_title">Kry Google Play Dienste</string>
+    <string name="common_google_play_services_notification_channel_name">Beskikbaarheid van Google Play Dienste</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-fout</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervind probleme met Google Play Dienste. Probeer asseblief weer.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s sal nie werk sonder Google Play Dienste nie, wat nie deur jou toestel gesteun word nie.</string>
+    <string name="common_google_play_services_update_button">Dateer op</string>
+    <string name="common_google_play_services_update_text">%1$s sal nie werk nie tensy jy Google Play Dienste opdateer.</string>
+    <string name="common_google_play_services_update_title">Dateer Google Play Dienste op</string>
+    <string name="common_google_play_services_updating_text">%1$s sal nie sonder Google Play Dienste werk nie, wat tans opdateer.</string>
+    <string name="common_google_play_services_wear_update_text">Nuwe weergawe van Google Play Dienste is nodig. Dit sal binnekort self opdateer.</string>
+    <string name="common_open_on_phone">Maak oop op foon</string>
+    <string name="default_error_message">Ongeldige invoer</string>
+    <string name="default_popup_window_title">Opspringvenster</string>
+    <string name="in_progress">Besig</string>
+    <string name="indeterminate">Gedeeltelik gemerk</string>
+    <string name="m3c_bottom_sheet_collapse_description">Vou onderste blad in</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Maak onderste blad toe</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Sleephandvatsel</string>
+    <string name="m3c_bottom_sheet_expand_description">Vou onderste blad uit</string>
+    <string name="m3c_bottom_sheet_pane_title">Onderste blad</string>
+    <string name="m3c_dialog">Dialoog</string>
+    <string name="m3c_dropdown_menu_collapsed">Ingevou</string>
+    <string name="m3c_dropdown_menu_expanded">Uitgevou</string>
+    <string name="m3c_dropdown_menu_toggle">Wissel aftrekkieslys</string>
+    <string name="m3c_floating_toolbar_collapse">Vou nutsbalk in</string>
+    <string name="m3c_floating_toolbar_expand">Vou nutsbalk uit</string>
+    <string name="m3c_search_bar_search">Soek</string>
+    <string name="m3c_suggestions_available">Voorstelle hieronder</string>
+    <string name="not_selected">Nie gekies nie</string>
+    <string name="selected">Gekies</string>
+    <string name="state_empty">Leeg</string>
+    <string name="state_off">Af</string>
+    <string name="state_on">Aan</string>
+    <string name="switch_role">Skakel oor</string>
+    <string name="tab">Oortjie</string>
+    <string name="template_percent">%1$d persent.</string>
+    <string name="tooltip_description">nutswenk</string>
+    <string name="tooltip_label">wys nutswenk</string>
+</resources>

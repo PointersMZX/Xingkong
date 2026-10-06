@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/realtime_notification_accessibility_description" android:accessibilityFeedbackType="feedbackGeneric" android:notificationTimeout="0" android:canRetrieveWindowContent="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

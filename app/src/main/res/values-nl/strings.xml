@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Blad sluiten</string>
+    <string name="common_google_play_services_enable_button">Aanzetten</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services aanzet.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services aanzetten</string>
+    <string name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_channel_name">Beschikbaarheid van Google Play-services</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="default_error_message">Ongeldige invoer</string>
+    <string name="default_popup_window_title">Pop-upvenster</string>
+    <string name="in_progress">Bezig</string>
+    <string name="indeterminate">Gedeeltelijk aangevinkt</string>
+    <string name="m3c_bottom_sheet_collapse_description">Blad onderaan samenvouwen</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Blad onderaan sluiten</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Handgreep voor slepen</string>
+    <string name="m3c_bottom_sheet_expand_description">Blad onderaan uitvouwen</string>
+    <string name="m3c_bottom_sheet_pane_title">Blad onderaan</string>
+    <string name="m3c_dialog">Dialoogvenster</string>
+    <string name="m3c_dropdown_menu_collapsed">Samengevouwen</string>
+    <string name="m3c_dropdown_menu_expanded">Uitgevouwen</string>
+    <string name="m3c_dropdown_menu_toggle">Dropdownmenu aan-/uitzetten</string>
+    <string name="m3c_floating_toolbar_collapse">Werkbalk samenvouwen</string>
+    <string name="m3c_floating_toolbar_expand">Werkbalk uitvouwen</string>
+    <string name="m3c_search_bar_search">Zoeken</string>
+    <string name="m3c_suggestions_available">Suggesties hieronder</string>
+    <string name="not_selected">Niet geselecteerd</string>
+    <string name="selected">Geselecteerd</string>
+    <string name="state_empty">Leeg</string>
+    <string name="state_off">Uit</string>
+    <string name="state_on">Aan</string>
+    <string name="switch_role">Overschakelen</string>
+    <string name="tab">Tabblad</string>
+    <string name="template_percent">%1$d procent.</string>
+    <string name="tooltip_description">tooltip</string>
+    <string name="tooltip_label">tooltip tonen</string>
+</resources>

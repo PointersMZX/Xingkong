@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Хүснэгтийг хаах</string>
+    <string name="common_google_play_services_enable_button">Идэвхжүүлэх</string>
+    <string name="common_google_play_services_enable_text">%1$s нь Google Play үйлчилгээг идэвхжүүлэх хүртэл ажиллахгүй.</string>
+    <string name="common_google_play_services_enable_title">Google Play үйлчилгээг идэвхжүүлэх</string>
+    <string name="common_google_play_services_install_button">Суулгах</string>
+    <string name="common_google_play_services_install_text">Таны төхөөрөмжид Google Play үйлчилгээ байхгүй тул %1$s ажиллахгүй.</string>
+    <string name="common_google_play_services_install_title">Google Play үйлчилгээг авах</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-н үйлчилгээнүүдийн боломжит байдал</string>
+    <string name="common_google_play_services_notification_ticker">Google Наадаан үйлчилгээний алдаа</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-г Google Play-н үйлчилгээгээр ашиглахад асуудал гарлаа. Дахин оролдоно уу.</string>
+    <string name="common_google_play_services_unsupported_text">Таны төхөөрөмж Google Play үйлчилгээг дэмждэггүй учир %1$s ажиллахгүй.</string>
+    <string name="common_google_play_services_update_button">Шинэчлэх</string>
+    <string name="common_google_play_services_update_text">%1$s нь таныг Google Play үйлчилгээнүүдийг шинэчлэхээс нааш ажиллахгүй.</string>
+    <string name="common_google_play_services_update_title">Google Play үйлчилгээг шинэчлэх</string>
+    <string name="common_google_play_services_updating_text">%1$s нь одоогоор шинэчилж буй Google Play үйлчилгээгүйгээр ажиллахгүй.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play үйлчилгээний шинэ хувилбар хэрэгтэй. Энэ нь удахгүй өөрөө өөрийгөө шинэчлэх болно.</string>
+    <string name="common_open_on_phone">Утсаар нээх</string>
+    <string name="default_error_message">Буруу оролт</string>
+    <string name="default_popup_window_title">Попап цонх</string>
+    <string name="in_progress">Үргэлжилж байна</string>
+    <string name="indeterminate">Хэсэгчлэн тэмдэглэсэн</string>
+    <string name="m3c_bottom_sheet_collapse_description">Доод хүснэгтийг хураах</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Доод хүснэгтийг хаах</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Чирэх бариул</string>
+    <string name="m3c_bottom_sheet_expand_description">Доод хүснэгтийг дэлгэх</string>
+    <string name="m3c_bottom_sheet_pane_title">Доод хүснэгт</string>
+    <string name="m3c_dialog">Харилцах цонх</string>
+    <string name="m3c_dropdown_menu_collapsed">Хураасан</string>
+    <string name="m3c_dropdown_menu_expanded">Дэлгэсэн</string>
+    <string name="m3c_dropdown_menu_toggle">Унадаг цэсийг асаах/унтраах</string>
+    <string name="m3c_floating_toolbar_collapse">Самбарыг хураана уу</string>
+    <string name="m3c_floating_toolbar_expand">Самбарыг дэлгэнэ үү</string>
+    <string name="m3c_search_bar_search">Хайх</string>
+    <string name="m3c_suggestions_available">Доорх зөвлөмжүүд</string>
+    <string name="not_selected">Сонгоогүй</string>
+    <string name="selected">Сонгосон</string>
+    <string name="state_empty">Хоосон</string>
+    <string name="state_off">Унтраалттай</string>
+    <string name="state_on">Асаалттай</string>
+    <string name="switch_role">Сэлгэх</string>
+    <string name="tab">Таб</string>
+    <string name="template_percent">%1$d хувь.</string>
+    <string name="tooltip_description">зөвлөмж</string>
+    <string name="tooltip_label">зөвлөмж харуулах</string>
+</resources>

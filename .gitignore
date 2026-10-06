@@ -13,7 +13,6 @@ build/
 *.ap_
 *.dex
 *.class
-release/
 *.keystore
 !debug.keystore
 # Rust

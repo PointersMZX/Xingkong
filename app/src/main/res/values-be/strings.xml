@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Закрыць аркуш</string>
+    <string name="common_google_play_services_enable_button">Уключыць</string>
+    <string name="common_google_play_services_enable_text">%1$s не будзе працаваць, пакуль вы не ўключыце службы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Уключыць службы Google Play</string>
+    <string name="common_google_play_services_install_button">Усталяваць</string>
+    <string name="common_google_play_services_install_text">%1$s не будзе працаваць без службаў Google Play, якія адсутнічаюць на вашай прыладзе.</string>
+    <string name="common_google_play_services_install_title">Атрымаць службы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Даступнасць сэрвісаў Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Памылка службаў Google Play</string>
+    <string name="common_google_play_services_unknown_issue">У праграмы %1$s узніклі праблемы са службамі Google Play. Паўтарыце спробу.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не будзе працаваць без службаў Google Play, якія не падтрымліваюцца вашай прыладай.</string>
+    <string name="common_google_play_services_update_button">Абнавіць</string>
+    <string name="common_google_play_services_update_text">%1$s не будзе працаваць, пакуль вы не абновіце службы Google Play.</string>
+    <string name="common_google_play_services_update_title">Абнаўленне службаў Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s не будзе працаваць без службаў Google Play, якія ў цяперашні час абнаўляюцца.</string>
+    <string name="common_google_play_services_wear_update_text">Патрабуецца новая версія служб Google Play. Яна абновіцца аўтаматычна ў бліжэйшы час.</string>
+    <string name="common_open_on_phone">Адкрыць на тэлефоне</string>
+    <string name="default_error_message">Памылка ўводу</string>
+    <string name="default_popup_window_title">Усплывальнае акно</string>
+    <string name="in_progress">У працэсе</string>
+    <string name="indeterminate">Выбрана часткова</string>
+    <string name="m3c_bottom_sheet_collapse_description">Згарнуць ніжні аркуш</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Закрыць ніжні аркуш</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Маркер перацягвання</string>
+    <string name="m3c_bottom_sheet_expand_description">Разгарнуць ніжні аркуш</string>
+    <string name="m3c_bottom_sheet_pane_title">Ніжні аркуш</string>
+    <string name="m3c_dialog">Дыялогавае акно</string>
+    <string name="m3c_dropdown_menu_collapsed">Згорнута</string>
+    <string name="m3c_dropdown_menu_expanded">Разгорнута</string>
+    <string name="m3c_dropdown_menu_toggle">Уключыць (выключыць) выпадное меню</string>
+    <string name="m3c_floating_toolbar_collapse">Згарнуць панэль інструментаў</string>
+    <string name="m3c_floating_toolbar_expand">Разгарнуць панэль інструментаў</string>
+    <string name="m3c_search_bar_search">Пошук</string>
+    <string name="m3c_suggestions_available">Прапановы ўнізе</string>
+    <string name="not_selected">Не выбрана</string>
+    <string name="selected">Выбрана</string>
+    <string name="state_empty">Змесціва няма</string>
+    <string name="state_off">Выключана</string>
+    <string name="state_on">Уключана</string>
+    <string name="switch_role">Пераключальнік</string>
+    <string name="tab">Укладка</string>
+    <string name="template_percent">Працэнтаў: %1$d.</string>
+    <string name="tooltip_description">падказка</string>
+    <string name="tooltip_label">паказаць усплывальную падказку</string>
+</resources>

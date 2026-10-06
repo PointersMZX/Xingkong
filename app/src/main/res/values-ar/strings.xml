@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">إغلاق الورقة</string>
+    <string name="common_google_play_services_enable_button">تفعيل</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تفعيل خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تفعيل خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">‏مدى توفّر خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. يُرجى إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="default_error_message">إدخال غير صالح</string>
+    <string name="default_popup_window_title">نافذة منبثقة</string>
+    <string name="in_progress">قيد التقدم</string>
+    <string name="indeterminate">تم وضع علامة في المربّع بشكل جزئي</string>
+    <string name="m3c_bottom_sheet_collapse_description">تصغير البطاقة السفلية</string>
+    <string name="m3c_bottom_sheet_dismiss_description">إغلاق البطاقة السفلية</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">مقبض السحب</string>
+    <string name="m3c_bottom_sheet_expand_description">توسيع البطاقة السفلية</string>
+    <string name="m3c_bottom_sheet_pane_title">بطاقة سفلية</string>
+    <string name="m3c_dialog">مربّع حوار</string>
+    <string name="m3c_dropdown_menu_collapsed">مصغَّرة</string>
+    <string name="m3c_dropdown_menu_expanded">موسَّعة</string>
+    <string name="m3c_dropdown_menu_toggle">توسيع القائمة المنسدلة أو تصغيرها</string>
+    <string name="m3c_floating_toolbar_collapse">تصغير شريط الأدوات</string>
+    <string name="m3c_floating_toolbar_expand">توسيع شريط الأدوات</string>
+    <string name="m3c_search_bar_search">شريط بحث</string>
+    <string name="m3c_suggestions_available">إليك الاقتراحات</string>
+    <string name="not_selected">غير محدّد</string>
+    <string name="selected">محدّد</string>
+    <string name="state_empty">حقل فارغ</string>
+    <string name="state_off">غير مفعَّل</string>
+    <string name="state_on">مفعَّل</string>
+    <string name="switch_role">تبديل</string>
+    <string name="tab">علامة تبويب</string>
+    <string name="template_percent">%1$d في المئة.</string>
+    <string name="tooltip_description">تلميح</string>
+    <string name="tooltip_label">إظهار التلميح</string>
+</resources>

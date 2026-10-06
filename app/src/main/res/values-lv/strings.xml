@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Aizvērt izklājlapu</string>
+    <string name="common_google_play_services_enable_button">Iespējot</string>
+    <string name="common_google_play_services_enable_text">Lai lietotne %1$s darbotos, ir jāiespējo Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_enable_title">Google Play pakalpojumu iespējošana</string>
+    <string name="common_google_play_services_install_button">Instalēt</string>
+    <string name="common_google_play_services_install_text">Lai lietotne %1$s darbotos, ierīcē ir jāinstalē Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_install_title">Google Play pakalpojumu iegūšana</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play pakalpojumu pieejamība</string>
+    <string name="common_google_play_services_notification_ticker">Google Play pakalpojumu kļūda</string>
+    <string name="common_google_play_services_unknown_issue">Lietotnē %1$s ir radusies problēma ar Google Play pakalpojumu darbību. Lūdzu, mēģiniet vēlreiz.</string>
+    <string name="common_google_play_services_unsupported_text">Lai lietotne %1$s darbotos, ir nepieciešami Google Play pakalpojumi, taču jūsu ierīce tos neatbalsta.</string>
+    <string name="common_google_play_services_update_button">Atjaunināt</string>
+    <string name="common_google_play_services_update_text">Lai lietotne %1$s darbotos, jums ir jāatjaunina Google Play pakalpojumi.</string>
+    <string name="common_google_play_services_update_title">Google Play pakalpojumu atjaunināšana</string>
+    <string name="common_google_play_services_updating_text">Lai lietotne %1$s darbotos, ir jāinstalē Google Play pakalpojumi. Pašlaik notiek to atjaunināšana.</string>
+    <string name="common_google_play_services_wear_update_text">Ir nepieciešama jauna Google Play pakalpojumu versija. Drīzumā tā tiks instalēta.</string>
+    <string name="common_open_on_phone">Atvērt tālrunī</string>
+    <string name="default_error_message">Nederīga ievade</string>
+    <string name="default_popup_window_title">Uznirstošais logs</string>
+    <string name="in_progress">Notiek apstrāde</string>
+    <string name="indeterminate">Daļēji atzīmēta</string>
+    <string name="m3c_bottom_sheet_collapse_description">Sakļaut ekrāna apakšdaļas lapu</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Noraidīt ekrāna apakšdaļas lapu</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Vilkšanas turis</string>
+    <string name="m3c_bottom_sheet_expand_description">Izvērst ekrāna apakšdaļas lapu</string>
+    <string name="m3c_bottom_sheet_pane_title">Ekrāna apakšdaļas lapa</string>
+    <string name="m3c_dialog">Dialoglodziņš</string>
+    <string name="m3c_dropdown_menu_collapsed">Sakļauta</string>
+    <string name="m3c_dropdown_menu_expanded">Izvērsta</string>
+    <string name="m3c_dropdown_menu_toggle">Pārslēgt nolaižamo izvēlni</string>
+    <string name="m3c_floating_toolbar_collapse">Sakļaut rīkjoslu</string>
+    <string name="m3c_floating_toolbar_expand">Izvērst rīkjoslu</string>
+    <string name="m3c_search_bar_search">Meklēšana</string>
+    <string name="m3c_suggestions_available">Tālāk ir sniegti ieteikumi</string>
+    <string name="not_selected">Nav atlasīts</string>
+    <string name="selected">Atlasīts</string>
+    <string name="state_empty">Tukšs</string>
+    <string name="state_off">Izslēgts</string>
+    <string name="state_on">Ieslēgts</string>
+    <string name="switch_role">Slēdzis</string>
+    <string name="tab">Cilne</string>
+    <string name="template_percent">Procenti: %1$d.</string>
+    <string name="tooltip_description">rīka padoms</string>
+    <string name="tooltip_label">rādīt rīka padomu</string>
+</resources>

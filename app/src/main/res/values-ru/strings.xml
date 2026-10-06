@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Закрыть лист</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы приложения \"%1$s\" требуется включить сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите сервисы Google Play</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text">Для работы приложения \"%1$s\" требуется установить сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите сервисы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступность сервисов Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Приложению \"%1$s\" не удается подключиться к сервисам Google Play. Повторите попытку.</string>
+    <string name="common_google_play_services_unsupported_text">Для работы с приложением \"%1$s\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве.</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Чтобы запустить приложение \"%1$s\", обновите сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите сервисы Google Play</string>
+    <string name="common_google_play_services_updating_text">Сервисы Google Play, необходимые для работы приложения \"%1$s\", в настоящий момент обновляются.</string>
+    <string name="common_google_play_services_wear_update_text">Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время.</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="default_error_message">Неправильный ввод</string>
+    <string name="default_popup_window_title">Всплывающее окно</string>
+    <string name="in_progress">Выполняется</string>
+    <string name="indeterminate">Отмечено частично</string>
+    <string name="m3c_bottom_sheet_collapse_description">Свернуть нижний экран</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Закрыть нижний экран</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Маркер перемещения</string>
+    <string name="m3c_bottom_sheet_expand_description">Развернуть нижний экран</string>
+    <string name="m3c_bottom_sheet_pane_title">Нижний экран</string>
+    <string name="m3c_dialog">Диалоговое окно</string>
+    <string name="m3c_dropdown_menu_collapsed">Свернуто</string>
+    <string name="m3c_dropdown_menu_expanded">Развернуто</string>
+    <string name="m3c_dropdown_menu_toggle">Показать или скрыть раскрывающееся меню</string>
+    <string name="m3c_floating_toolbar_collapse">Свернуть панель инструментов</string>
+    <string name="m3c_floating_toolbar_expand">Развернуть панель инструментов</string>
+    <string name="m3c_search_bar_search">Строка поиска</string>
+    <string name="m3c_suggestions_available">Подсказки показаны ниже</string>
+    <string name="not_selected">Не выбрано</string>
+    <string name="selected">Выбрано</string>
+    <string name="state_empty">Пусто</string>
+    <string name="state_off">Отключено</string>
+    <string name="state_on">Включено</string>
+    <string name="switch_role">Переключатель</string>
+    <string name="tab">Вкладка</string>
+    <string name="template_percent">Процентов: %1$d.</string>
+    <string name="tooltip_description">Подсказка</string>
+    <string name="tooltip_label">Показать подсказку</string>
+</resources>

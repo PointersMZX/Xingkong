@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Закрити аркуш</string>
+    <string name="common_google_play_services_enable_button">Увімкнути</string>
+    <string name="common_google_play_services_enable_text">Додаток %1$s не працюватиме, якщо не ввімкнути сервіси Google Play.</string>
+    <string name="common_google_play_services_enable_title">Увімкнути сервіси Google Play</string>
+    <string name="common_google_play_services_install_button">Установити</string>
+    <string name="common_google_play_services_install_text">Додаток %1$s не працюватиме без сервісів Google Play, яких немає на вашому пристрої.</string>
+    <string name="common_google_play_services_install_title">Установити сервіси Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Доступність сервісів Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Помилка сервісів Google Play</string>
+    <string name="common_google_play_services_unknown_issue">У додатку %1$s виникла проблема із сервісами Google Play. Повторіть спробу.</string>
+    <string name="common_google_play_services_unsupported_text">Додаток %1$s не працюватиме без сервісів Google Play, які не підтримуються на вашому пристрої.</string>
+    <string name="common_google_play_services_update_button">Оновити</string>
+    <string name="common_google_play_services_update_text">Додаток %1$s не працюватиме, якщо не оновити сервіси Google Play.</string>
+    <string name="common_google_play_services_update_title">Оновіть сервіси Google Play</string>
+    <string name="common_google_play_services_updating_text">Додаток %1$s не працюватиме без сервісів Google Play, які зараз оновлюються.</string>
+    <string name="common_google_play_services_wear_update_text">Потрібна нова версія сервісів Google Play. Вони невдовзі оновляться.</string>
+    <string name="common_open_on_phone">Відкрити на телефоні</string>
+    <string name="default_error_message">Введено недійсні дані</string>
+    <string name="default_popup_window_title">Спливаюче вікно</string>
+    <string name="in_progress">Виконується</string>
+    <string name="indeterminate">Частково вибрано</string>
+    <string name="m3c_bottom_sheet_collapse_description">Згорнути нижній екран</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Закрити нижній екран</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Маркер переміщення</string>
+    <string name="m3c_bottom_sheet_expand_description">Розгорнути нижній екран</string>
+    <string name="m3c_bottom_sheet_pane_title">Нижній екран</string>
+    <string name="m3c_dialog">Вікно</string>
+    <string name="m3c_dropdown_menu_collapsed">Згорнуто</string>
+    <string name="m3c_dropdown_menu_expanded">Розгорнуто</string>
+    <string name="m3c_dropdown_menu_toggle">Згорнути або розгорнути спадне меню</string>
+    <string name="m3c_floating_toolbar_collapse">Згорнути панель інструментів</string>
+    <string name="m3c_floating_toolbar_expand">Розгорнути панель інструментів</string>
+    <string name="m3c_search_bar_search">Пошук</string>
+    <string name="m3c_suggestions_available">Підказки внизу</string>
+    <string name="not_selected">Не вибрано</string>
+    <string name="selected">Вибрано</string>
+    <string name="state_empty">Пусто</string>
+    <string name="state_off">Вимкнено</string>
+    <string name="state_on">Увімкнено</string>
+    <string name="switch_role">Перемикач</string>
+    <string name="tab">Вкладка</string>
+    <string name="template_percent">Відсотків: %1$d.</string>
+    <string name="tooltip_description">спливаюча підказка</string>
+    <string name="tooltip_label">показати спливаючу підказку</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Փակել թերթը</string>
+    <string name="common_google_play_services_enable_button">Միացնել</string>
+    <string name="common_google_play_services_enable_text">%1$s հավելվածը չի աշխատի մինչև չմիացնեք Google Play ծառայությունները:</string>
+    <string name="common_google_play_services_enable_title">Միացնել Google Play ծառայությունները</string>
+    <string name="common_google_play_services_install_button">Տեղադրել</string>
+    <string name="common_google_play_services_install_text">%1$s հավելվածը չի աշխատի առանց Google Play ծառայությունների, որոնք չկան ձեր սարքում:</string>
+    <string name="common_google_play_services_install_title">Տեղադրել Google Play ծառայությունները</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ծառայությունների հասանելիություն</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ծառայությունների սխալ կա</string>
+    <string name="common_google_play_services_unknown_issue">%1$s հավելվածը Google Play ծառայությունների հետ կապված խնդիր ունի: Փորձեք նորից:</string>
+    <string name="common_google_play_services_unsupported_text">%1$s հավելվածը չի աշխատի առանց Google Play ծառայությունների, որոնք ձեր սարքում չեն աջակցվում:</string>
+    <string name="common_google_play_services_update_button">Թարմացնել</string>
+    <string name="common_google_play_services_update_text">%1$s հավելվածը չի աշխատի մինչև չթարմացնեք Google Play ծառայությունները:</string>
+    <string name="common_google_play_services_update_title">Թարմացնել Google Play ծառայությունները</string>
+    <string name="common_google_play_services_updating_text">%1$s հավելվածը չի աշխատի առանց Google Play ծառայությունների, որոնք այս պահին թարմացվում են:</string>
+    <string name="common_google_play_services_wear_update_text">Անհրաժեշտ է Google Play ծառայությունների նոր տարբերակը: Այն շուտով կթարմացվի ավտոմատ կերպով:</string>
+    <string name="common_open_on_phone">Բացել հեռախոսով</string>
+    <string name="default_error_message">Սխալ ներածում</string>
+    <string name="default_popup_window_title">Ելնող պատուհան</string>
+    <string name="in_progress">Ընթացքում է</string>
+    <string name="indeterminate">Մասնակի նշված</string>
+    <string name="m3c_bottom_sheet_collapse_description">Ծալել ներքևի էկրանը</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Փակել ներքևի էկրանը</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Տեղափոխման նշիչ</string>
+    <string name="m3c_bottom_sheet_expand_description">Ծավալել ներքևի էկրանը</string>
+    <string name="m3c_bottom_sheet_pane_title">Ներքևի էկրան</string>
+    <string name="m3c_dialog">Երկխոսության պատուհան</string>
+    <string name="m3c_dropdown_menu_collapsed">Ծալված է</string>
+    <string name="m3c_dropdown_menu_expanded">Ծավալված է</string>
+    <string name="m3c_dropdown_menu_toggle">Բացել/փակել իջնող ցանկը</string>
+    <string name="m3c_floating_toolbar_collapse">Ծալել գործիքագոտին</string>
+    <string name="m3c_floating_toolbar_expand">Ծավալել գործիքագոտին</string>
+    <string name="m3c_search_bar_search">Որոնում</string>
+    <string name="m3c_suggestions_available">Առաջարկները հասանելի են ստորև</string>
+    <string name="not_selected">Ընտրված չէ</string>
+    <string name="selected">Ընտրված է</string>
+    <string name="state_empty">Դատարկ</string>
+    <string name="state_off">Անջատված է</string>
+    <string name="state_on">Միացված է</string>
+    <string name="switch_role">Փոխանջատիչ</string>
+    <string name="tab">Ներդիր</string>
+    <string name="template_percent">%1$d տոկոս։</string>
+    <string name="tooltip_description">հուշակ</string>
+    <string name="tooltip_label">ցուցադրել հուշակ</string>
+</resources>

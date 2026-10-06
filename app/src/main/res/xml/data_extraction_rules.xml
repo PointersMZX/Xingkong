@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data-extraction-rules>
-    <cloud-backup>
-        <include domain="file" path="crashes/" />
-    </cloud-backup>
-    <device-transfer>
-        <include domain="file" path="crashes/" />
-    </device-transfer>
+    <cloud-backup />
 </data-extraction-rules>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">Tutup sheet</string>
+    <string name="common_google_play_services_enable_button">Aktifkan</string>
+    <string name="common_google_play_services_enable_text">%1$s tidak akan berfungsi jika layanan Google Play tidak diaktifkan.</string>
+    <string name="common_google_play_services_enable_title">Aktifkan layanan Google Play</string>
+    <string name="common_google_play_services_install_button">Instal</string>
+    <string name="common_google_play_services_install_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak ada di perangkat Anda.</string>
+    <string name="common_google_play_services_install_title">Dapatkan layanan Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Ketersediaan layanan Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Kesalahan layanan Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak didukung oleh perangkat Anda.</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text">%1$s tidak akan berjalan jika layanan Google Play tidak diperbarui.</string>
+    <string name="common_google_play_services_update_title">Perbarui layanan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui.</string>
+    <string name="common_google_play_services_wear_update_text">Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri.</string>
+    <string name="common_open_on_phone">Buka di ponsel</string>
+    <string name="default_error_message">Input tidak valid</string>
+    <string name="default_popup_window_title">Jendela Pop-Up</string>
+    <string name="in_progress">Dalam proses</string>
+    <string name="indeterminate">Diperiksa sebagian</string>
+    <string name="m3c_bottom_sheet_collapse_description">Menciutkan sheet bawah</string>
+    <string name="m3c_bottom_sheet_dismiss_description">Menutup sheet bawah</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">Handel geser</string>
+    <string name="m3c_bottom_sheet_expand_description">Meluaskan sheet bawah</string>
+    <string name="m3c_bottom_sheet_pane_title">Sheet Bawah</string>
+    <string name="m3c_dialog">Dialog</string>
+    <string name="m3c_dropdown_menu_collapsed">Diciutkan</string>
+    <string name="m3c_dropdown_menu_expanded">Diperluas</string>
+    <string name="m3c_dropdown_menu_toggle">Aktifkan/nonaktifkan menu dropdown</string>
+    <string name="m3c_floating_toolbar_collapse">Ciutkan toolbar</string>
+    <string name="m3c_floating_toolbar_expand">Luaskan toolbar</string>
+    <string name="m3c_search_bar_search">Telusuri</string>
+    <string name="m3c_suggestions_available">Saran di bawah</string>
+    <string name="not_selected">Tidak dipilih</string>
+    <string name="selected">Dipilih</string>
+    <string name="state_empty">Kosong</string>
+    <string name="state_off">Nonaktif</string>
+    <string name="state_on">Aktif</string>
+    <string name="switch_role">Alihkan</string>
+    <string name="tab">Tab</string>
+    <string name="template_percent">%1$d persen.</string>
+    <string name="tooltip_description">tooltip</string>
+    <string name="tooltip_label">tampilkan tooltip</string>
+</resources>

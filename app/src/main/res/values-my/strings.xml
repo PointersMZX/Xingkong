@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">စာမျက်နှာ ပိတ်ရန်</string>
+    <string name="common_google_play_services_enable_button">ဖွင့်ရန်</string>
+    <string name="common_google_play_services_enable_text">Google Play ဝန်ဆောင်မှုများကို မဖွင့်သ၍ %1$s သည်အလုပ်လုပ်မည်မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_enable_title">Google Play ဝန်ဆောင်မှုများ ဖွင့်ရန်</string>
+    <string name="common_google_play_services_install_button">ထည့်သွင်းပါ</string>
+    <string name="common_google_play_services_install_text">သင့်တက်ဘလက်တွင် Google Play ဝန်ဆောင်မှုများမရှိသောကြောင့် %1$s ကိုဖွင့်၍မရပါ။</string>
+    <string name="common_google_play_services_install_title">Google Play ဝန်ဆောင်မှုများရယူရန်</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ဝန်ဆောင်မှုများ ရရှိနိုင်သည်</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ဝန်ဆောင်မှုများ အမှား</string>
+    <string name="common_google_play_services_unknown_issue">%1$s သည် Google Play ဝန်ဆောင်မှုများနှင့် ပြဿနာအနည်းငယ် ရှိနေပါသည်။ ထပ်လုပ်ကြည့်ပါ။</string>
+    <string name="common_google_play_services_unsupported_text">Google Play ဝန်ဆောင်မှုများကို သင့်စက်ပစ္စည်းတွင် ပံ့ပိုးမထားသည့်အတွက် ၎င်းမရှိဘဲ %1$s ကို ဖွင့်၍မရပါ။</string>
+    <string name="common_google_play_services_update_button">အပ်ဒိတ်</string>
+    <string name="common_google_play_services_update_text">Google Play ဝန်ဆောင်မှုများအား အပ်ဒိတ်မလုပ်ပါက %1$s အလုပ်လုပ်မည် မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_update_title">Google Play ဝန်ဆောင်မှုများကို အပ်ဒိတ်လုပ်ရန်</string>
+    <string name="common_google_play_services_updating_text">Google Play ဝန်ဆောင်မှုများကို လက်ရှိအပ်ဒိတ်လုပ်နေသောကြောင့် %1$s ကိုဖွင့်၍ရမည်မဟုတ်ပါ။</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ဝန်ဆောင်မှုဗားရှင်းအသစ်များ လိုအပ်နေသည်။ အချိန်အနည်းငယ်အကြာတွင် ၎င်းကိုယ်တိုင်အပ်ဒိတ်လုပ်ပါ လိမ့်မည်။</string>
+    <string name="common_open_on_phone">ဖုန်းပေါ်မှာ ဖွင့်ပါ</string>
+    <string name="default_error_message">ထည့်သွင်းမှု မမှန်ကန်ပါ</string>
+    <string name="default_popup_window_title">ပေါ့ပ်အပ် ဝင်းဒိုး</string>
+    <string name="in_progress">ဆောင်ရွက်နေဆဲ</string>
+    <string name="indeterminate">တစ်ဝက်တစ်ပျက် စစ်ဆေးထားသည်</string>
+    <string name="m3c_bottom_sheet_collapse_description">အောက်ခြေအပိုဆောင်း စာမျက်နှာကို ချုံ့သည်</string>
+    <string name="m3c_bottom_sheet_dismiss_description">အောက်ခြေအပိုဆောင်း စာမျက်နှာကို ပယ်သည်</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">ဖိဆွဲအထိန်း</string>
+    <string name="m3c_bottom_sheet_expand_description">အောက်ခြေအပိုဆောင်း စာမျက်နှာကို ချဲ့သည်</string>
+    <string name="m3c_bottom_sheet_pane_title">အောက်ခြေအပိုဆောင်း စာမျက်နှာ</string>
+    <string name="m3c_dialog">ဒိုင်ယာလော့</string>
+    <string name="m3c_dropdown_menu_collapsed">ချုံ့ထားသည်</string>
+    <string name="m3c_dropdown_menu_expanded">ချဲ့ထားသည်</string>
+    <string name="m3c_dropdown_menu_toggle">ဆွဲချမီနူးကို ပြောင်းရန်</string>
+    <string name="m3c_floating_toolbar_collapse">ကိရိယာဘား ချုံ့ရန်</string>
+    <string name="m3c_floating_toolbar_expand">ကိရိယာဘား ချဲ့ရန်</string>
+    <string name="m3c_search_bar_search">ရှာရန်</string>
+    <string name="m3c_suggestions_available">အကြံပြုချက်များသည် အောက်တွင်ရှိသည်</string>
+    <string name="not_selected">ရွေးမထားပါ</string>
+    <string name="selected">ရွေးထားသည်</string>
+    <string name="state_empty">မရှိပါ</string>
+    <string name="state_off">ပိတ်</string>
+    <string name="state_on">ဖွင့်</string>
+    <string name="switch_role">ပြောင်းရန်</string>
+    <string name="tab">တဘ်</string>
+    <string name="template_percent">%1$d ရာခိုင်နှုန်း။</string>
+    <string name="tooltip_description">အကြံပြုချက်အကွက်</string>
+    <string name="tooltip_label">အကြံပြုချက်ပြ ပေါ့အပ်ဝင်းဒိုး ပြရန်</string>
+</resources>

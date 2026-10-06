@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">शीट बंद करा</string>
+    <string name="common_google_play_services_enable_button">सुरू करा</string>
+    <string name="common_google_play_services_enable_text">तुम्ही Google Play सेवा सक्षम केल्याशिवाय %1$s हा अ‍ॅप कार्य करणार नाही.</string>
+    <string name="common_google_play_services_enable_title">Google Play सेवा सुरू करा</string>
+    <string name="common_google_play_services_install_button">स्‍थापित करा</string>
+    <string name="common_google_play_services_install_text">Google Play सेवा आपल्या डिव्हाइसवर उपलब्ध नाही, त्याशिवाय %1$s चालणार नाही.</string>
+    <string name="common_google_play_services_install_title">Google Play सेवा मिळवा</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवा उपलब्धता</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवा एरर</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ला Google Play सेवांमध्ये समस्या येत आहे. कृपया पुन्हा प्रयत्न करा.</string>
+    <string name="common_google_play_services_unsupported_text">तुमचे डिव्हाइस सपोर्ट करत नसलेल्या, Google Play सेवांशिवाय %1$s चालणार नाही.</string>
+    <string name="common_google_play_services_update_button">अपडेट करा</string>
+    <string name="common_google_play_services_update_text">तुम्ही Google Play सेवा अपडेट करेपर्यंत %1$s चालणार नाही.</string>
+    <string name="common_google_play_services_update_title">Google Play सेवा अपडेट करा</string>
+    <string name="common_google_play_services_updating_text">सध्‍या अपडेट होत असलेल्‍या, Google Play सेवांशिवाय %1$s चालणार नाही.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवांच्या नवीन आवृत्तीची आवश्यकता आहे. हे स्वत:ला लवकरच अपडेट करेल.</string>
+    <string name="common_open_on_phone">फोनवर उघडा</string>
+    <string name="default_error_message">इनपुट चुकीचे आहे</string>
+    <string name="default_popup_window_title">पॉप-अप विंडो</string>
+    <string name="in_progress">प्रगतीपथावर आहे</string>
+    <string name="indeterminate">अंशतः तपासले</string>
+    <string name="m3c_bottom_sheet_collapse_description">तळाशी असलेली शीट कोलॅप्स करा</string>
+    <string name="m3c_bottom_sheet_dismiss_description">तळाशी असलेली शीट डिसमिस करा</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">ड्रॅग हॅंडल</string>
+    <string name="m3c_bottom_sheet_expand_description">तळाशी असलेली शीट विस्तारीत करा</string>
+    <string name="m3c_bottom_sheet_pane_title">तळाशी असलेली शीट</string>
+    <string name="m3c_dialog">डायलॉग</string>
+    <string name="m3c_dropdown_menu_collapsed">कोलॅप्स केला आहे</string>
+    <string name="m3c_dropdown_menu_expanded">विस्तारित केला आहे</string>
+    <string name="m3c_dropdown_menu_toggle">ड्रॉपडाउन मेनू टॉगल करा</string>
+    <string name="m3c_floating_toolbar_collapse">टूलबार कोलॅप्स करा</string>
+    <string name="m3c_floating_toolbar_expand">टूलबारचा विस्तार करा</string>
+    <string name="m3c_search_bar_search">शोधा</string>
+    <string name="m3c_suggestions_available">सूचना खाली आहेत</string>
+    <string name="not_selected">निवडला नाही</string>
+    <string name="selected">निवडला</string>
+    <string name="state_empty">रिक्त</string>
+    <string name="state_off">बंद आहे</string>
+    <string name="state_on">सुरू आहे</string>
+    <string name="switch_role">स्विच</string>
+    <string name="tab">टॅब</string>
+    <string name="template_percent">%1$d टक्के.</string>
+    <string name="tooltip_description">टूलटिप</string>
+    <string name="tooltip_label">टूलटिप दाखवा</string>
+</resources>

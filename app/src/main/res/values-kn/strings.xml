@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="close_sheet">ಶೀಟ್ ಮುಚ್ಚಿರಿ</string>
+    <string name="common_google_play_services_enable_button">ಸಕ್ರಿಯಗೊಳಿಸು</string>
+    <string name="common_google_play_services_enable_text">Google Play ಸೇವೆಗಳನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸದ ಹೊರತು %1$s ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_enable_title">Google Play ಸೇವೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="common_google_play_services_install_button">ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ</string>
+    <string name="common_google_play_services_install_text">ನಿಮ್ಮ ಸಾಧನದಿಂದ ಕಾಣೆಯಾಗಿರುವ %1$s, Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_install_title">Google Play ಸೇವೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ಸೇವೆಗಳ ಲಭ್ಯತೆ</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ಸೇವೆಗಳ ದೋಷ</string>
+    <string name="common_google_play_services_unknown_issue">Google Play ಸೇವೆಗಳಲ್ಲಿ %1$s ಸಮಸ್ಯೆಯನ್ನು ಹೊಂದಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="common_google_play_services_unsupported_text">ನಿಮ್ಮ ಸಾಧನದ ಮೂಲಕ ಬೆಂಬಲಿಸದಿರುವ Google Play ಸೇವೆಗಳಿಲ್ಲದೆ %1$s ರನ್‌ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_update_button">ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string name="common_google_play_services_update_text">ನೀವು Google Play ಸೇವೆಗಳನ್ನು ಅಪ್‍ಡೇಟ್ ಮಾಡದ ಹೊರತು %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_update_title">Google ಪ್ಲೇ ಸೇವೆಗಳನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಿ</string>
+    <string name="common_google_play_services_updating_text">Google Play ಸೇವೆಗಳಿಲ್ಲದೆ ಪ್ರಸ್ತುತ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರುವ %1$s ರನ್ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play ಸೇವೆಗಳ ಹೊಸ ಆವೃತ್ತಿ ಅಗತ್ಯವಿದೆ. ಸದ್ಯದಲ್ಲೇ ಅದು ತಾನಾಗಿಯೇ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತದೆ.</string>
+    <string name="common_open_on_phone">ಫೋನ್‌ನಲ್ಲಿ ತೆರೆಯಿರಿ</string>
+    <string name="default_error_message">ಅಮಾನ್ಯ ಇನ್‌ಪುಟ್</string>
+    <string name="default_popup_window_title">ಪಾಪ್-ಅಪ್ ವಿಂಡೋ</string>
+    <string name="in_progress">ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
+    <string name="indeterminate">ಭಾಗಶಃ ಪರೀಕ್ಷಿಸಲಾಗಿದೆ</string>
+    <string name="m3c_bottom_sheet_collapse_description">ಕೆಳಭಾಗದ ಶೀಟ್ ಅನ್ನು ಕುಗ್ಗಿಸಿ</string>
+    <string name="m3c_bottom_sheet_dismiss_description">ಕೆಳಭಾಗದ ಶೀಟ್ ಅನ್ನು ವಜಾಗೊಳಿಸಿ</string>
+    <string name="m3c_bottom_sheet_drag_handle_description">ಹ್ಯಾಂಡಲ್ ಡ್ರ್ಯಾಗ್ ಮಾಡಿ</string>
+    <string name="m3c_bottom_sheet_expand_description">ಕೆಳಭಾಗದ ಶೀಟ್ ಅನ್ನು ವಿಸ್ತರಿಸಿ</string>
+    <string name="m3c_bottom_sheet_pane_title">ಕೆಳಭಾಗದ ಶೀಟ್</string>
+    <string name="m3c_dialog">ಡೈಲಾಗ್</string>
+    <string name="m3c_dropdown_menu_collapsed">ಕುಗ್ಗಿಸಲಾಗಿದೆ</string>
+    <string name="m3c_dropdown_menu_expanded">ವಿಸ್ತರಿಸಲಾಗಿದೆ</string>
+    <string name="m3c_dropdown_menu_toggle">ಡ್ರಾಪ್‌ಡೌನ್ ಮೆನುವನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="m3c_floating_toolbar_collapse">ಟೂಲ್‌ಬಾರ್ ಅನ್ನು ಸಂಕುಚಿಸಿ</string>
+    <string name="m3c_floating_toolbar_expand">ಟೂಲ್‌ಬಾರ್ ಅನ್ನು ವಿಸ್ತರಿಸಿ</string>
+    <string name="m3c_search_bar_search">ಹುಡುಕಿ</string>
+    <string name="m3c_suggestions_available">ಸಲಹೆಗಳನ್ನು ಕೆಳಗೆ ನೀಡಲಾಗಿದೆ</string>
+    <string name="not_selected">ಆಯ್ಕೆ ಮಾಡಿಲ್ಲ</string>
+    <string name="selected">ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</string>
+    <string name="state_empty">ಖಾಲಿ</string>
+    <string name="state_off">ಆಫ್ ಆಗಿದೆ</string>
+    <string name="state_on">ಆನ್ ಆಗಿದೆ</string>
+    <string name="switch_role">ಬದಲಿಸಿ</string>
+    <string name="tab">ಟ್ಯಾಬ್</string>
+    <string name="template_percent">%1$d ಶೇಕಡಾ.</string>
+    <string name="tooltip_description">ಟೂಲ್‌ಟಿಪ್</string>
+    <string name="tooltip_label">ಟೂಲ್‌ಟಿಪ್ ಅನ್ನು ತೋರಿಸಿ</string>
+</resources>
