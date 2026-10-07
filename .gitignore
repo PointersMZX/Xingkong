@@ -7,8 +7,6 @@ build/
 /captures
 .externalNativeBuild
 .cxx
-*.apk.id
-*.apk
 *.aab
 *.ap_
 *.dex
